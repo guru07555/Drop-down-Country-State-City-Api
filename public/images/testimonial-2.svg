@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="1000" viewBox="0 0 750 1000">
+  <defs>
+    <linearGradient id="gtestimonial2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFC907"/>
+      <stop offset="1" stop-color="#FF7A1A"/>
+    </linearGradient>
+  </defs>
+  <rect width="750" height="1000" fill="url(#gtestimonial2)"/>
+  <circle cx="585" cy="220" r="135" fill="#ffffff" opacity="0.18"/>
+  <circle cx="135" cy="800" r="195" fill="#ffffff" opacity="0.12"/>
+  <circle cx="375" cy="450" r="67.5" fill="#ffffff" opacity="0.25"/>
+  <text x="50%" y="52%" text-anchor="middle" font-family="Arial, sans-serif" font-size="52.50000000000001" font-weight="bold" fill="#ffffff" opacity="0.85">Parent Story 2</text>
+</svg>

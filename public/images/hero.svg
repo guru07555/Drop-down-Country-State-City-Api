@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="ghero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFC907"/>
+      <stop offset="1" stop-color="#FF7A1A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#ghero)"/>
+  <circle cx="780" cy="220" r="180" fill="#ffffff" opacity="0.18"/>
+  <circle cx="180" cy="800" r="260" fill="#ffffff" opacity="0.12"/>
+  <circle cx="500" cy="450" r="90" fill="#ffffff" opacity="0.25"/>
+  <text x="50%" y="52%" text-anchor="middle" font-family="Arial, sans-serif" font-size="70" font-weight="bold" fill="#ffffff" opacity="0.85">Hero Photo</text>
+</svg>
