@@ -3,63 +3,64 @@ import { LEARNING_HUB } from "@/lib/data";
 import { Reveal, RevealGroup, RevealItem } from "@/components/ui/Reveal";
 import { scaleIn } from "@/lib/animations";
 import Parallax from "@/components/ui/Parallax";
-import MagneticButton from "@/components/ui/MagneticButton";
 
+/**
+ * Learning Hub: circular photo on the left ringed by small accent dots,
+ * orange display heading and a row of three circular icon badges.
+ */
 export default function LearningHub() {
   return (
-    <section id="about" className="section-pad relative overflow-hidden">
+    <section id="about" className="section-pad relative overflow-hidden bg-cream-dark">
       <div className="shell grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
-        {/* Visual: arch-masked image with circular decorations */}
-        <Reveal variants={scaleIn} className="relative order-2 mx-auto w-full max-w-lg lg:order-1">
-          <Parallax speed={35}>
-            <div className="img-zoom-wrap mask-arch relative aspect-[4/5] shadow-card" data-cursor="hover">
+        {/* Circular visual */}
+        <Reveal variants={scaleIn} className="relative mx-auto w-full max-w-md">
+          <Parallax speed={30}>
+            <div className="img-zoom-wrap relative aspect-square overflow-hidden rounded-full shadow-card" data-cursor="hover">
               <Image
                 src={LEARNING_HUB.image}
-                alt="Inside the learning hub"
+                alt="Child exploring at the learning hub"
                 fill
                 className="object-cover"
-                sizes="(min-width: 1024px) 32rem, 90vw"
+                sizes="(min-width: 1024px) 28rem, 80vw"
               />
             </div>
           </Parallax>
-          {/* Circular design elements */}
-          <div aria-hidden className="absolute -left-8 top-10 h-24 w-24 rounded-full border-[10px] border-brand/60" />
-          <div aria-hidden className="absolute -right-6 bottom-16 h-16 w-16 animate-float rounded-full bg-teal-pop/30" />
-          <div aria-hidden className="absolute -bottom-6 left-10 h-10 w-10 animate-float-delay rounded-full bg-berry-pop/40" />
+          {/* Accent dots arcing around the circle */}
+          <span aria-hidden className="absolute -left-3 top-10 h-7 w-7 animate-float rounded-full bg-tangerine" />
+          <span aria-hidden className="absolute -bottom-2 left-16 h-5 w-5 animate-float-delay rounded-full bg-brand" />
+          <span aria-hidden className="absolute -right-2 bottom-20 h-9 w-9 animate-float rounded-full bg-sky-pop/70" />
+          <span aria-hidden className="absolute right-8 -top-3 h-6 w-6 animate-float-delay rounded-full bg-leaf-pop/70" />
         </Reveal>
 
         {/* Copy */}
-        <div className="order-1 lg:order-2">
+        <div className="text-center lg:text-left">
           <Reveal>
-            <span className="eyebrow mb-5">{LEARNING_HUB.eyebrow}</span>
-            <h2 className="text-balance font-display text-display-lg font-extrabold text-ink">
+            <p className="font-display text-sm font-bold uppercase tracking-[0.24em] text-ink-soft">
+              {LEARNING_HUB.eyebrowTop}
+            </p>
+            <h2 className="mt-1 font-display text-display-lg font-extrabold uppercase tracking-wide text-tangerine">
               {LEARNING_HUB.title}
             </h2>
-            <p className="mt-5 max-w-xl text-base leading-relaxed text-ink-mute sm:text-lg">
+            <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-ink-mute sm:text-lg lg:mx-0">
               {LEARNING_HUB.body}
             </p>
           </Reveal>
 
-          <RevealGroup className="mt-9 grid grid-cols-1 gap-4 sm:grid-cols-2" stagger={0.1}>
-            {LEARNING_HUB.points.map((point) => (
-              <RevealItem key={point.label}>
-                <div className="card-lift flex items-center gap-4 rounded-3xl bg-white p-4 shadow-card" data-cursor="hover">
-                  <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-brand-100 text-2xl">
-                    {point.icon}
+          {/* Circular icon badges */}
+          <RevealGroup className="mt-10 flex flex-wrap justify-center gap-8 lg:justify-start" stagger={0.12}>
+            {LEARNING_HUB.badges.map((badge) => (
+              <RevealItem key={badge.label} className="w-32">
+                <div className="flex flex-col items-center text-center" data-cursor="hover">
+                  <span className="card-lift grid h-20 w-20 place-items-center rounded-full border-4 border-brand bg-white text-3xl shadow-card">
+                    {badge.icon}
                   </span>
-                  <span className="font-display text-sm font-bold text-ink">
-                    {point.label}
+                  <span className="mt-3 font-display text-xs font-semibold leading-snug text-ink">
+                    {badge.label}
                   </span>
                 </div>
               </RevealItem>
             ))}
           </RevealGroup>
-
-          <Reveal className="mt-9" delay={0.2}>
-            <MagneticButton href="#programs" className="btn-dark">
-              Discover the Curriculum
-            </MagneticButton>
-          </Reveal>
         </div>
       </div>
     </section>

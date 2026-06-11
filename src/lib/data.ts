@@ -1,225 +1,236 @@
 /**
  * Centralised content model for the homepage.
- * All copy here is original placeholder content written for this recreation —
- * the layout/structure mirrors the reference, the words and assets do not.
+ *
+ * Copy is original placeholder text written for this recreation — the
+ * section structure mirrors the reference, the paragraphs do not.
+ *
+ * Images: the build container cannot reach photo CDNs, so every slot
+ * points to a keyword-locked loremflickr URL that resolves to a real
+ * photograph in the browser. Swap each entry for licensed photography
+ * before going live.
  */
 
+export const img = (keywords: string, w: number, h: number, lock: number) =>
+  `https://loremflickr.com/${w}/${h}/${keywords}?lock=${lock}`;
+
 export const NAV_LINKS = [
-  { label: "About Us", href: "#about" },
+  { label: "Home", href: "#top" },
+  { label: "About", href: "#about" },
+  { label: "Activities", href: "#activities" },
   { label: "Programs", href: "#programs" },
-  { label: "Campuses", href: "#campuses" },
-  { label: "Gallery", href: "#gallery" },
+  { label: "Our Schools", href: "#schools" },
   { label: "Blog", href: "#blog" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact Us", href: "#contact" },
 ] as const;
 
-export const HERO = {
-  eyebrow: "A happy place to grow",
-  titleA: "Where little minds",
-  titleHighlight: "bloom",
-  titleB: "every single day",
-  sub: "A play-first early learning school that turns curiosity into confidence — for children aged 1.5 to 6 years.",
-  ctaPrimary: "Book a Campus Visit",
-  ctaSecondary: "Explore Programs",
-  image: "/images/hero.svg",
+export const TOPBAR = {
+  left: "Admissions Open for 2026–27 · Limited Seats",
+  phone: "+91 90000 00000",
 };
+
+export const HERO_SLIDES = [
+  {
+    title: "A Safe, Nurturing Environment",
+    image: img("preschool,children,classroom", 1600, 900, 101),
+  },
+  {
+    title: "Where Kids Learn Through Play",
+    image: img("kids,playing,kindergarten", 1600, 900, 102),
+  },
+  {
+    title: "Caring Teachers, Happy Children",
+    image: img("teacher,children,school", 1600, 900, 103),
+  },
+];
 
 export const LOGOS = [
   "Sunrise Corp",
   "BrightWorks",
   "Northwind",
   "Helio Labs",
-  "Crayon & Co",
   "Maple Group",
   "Orbit Media",
-  "Lighthouse",
 ];
 
 export const LEARNING_HUB = {
-  eyebrow: "Our Learning Hub",
-  title: "A curriculum built around how children actually learn",
-  body: "Our hub blends Montessori-inspired stations, sensory play zones and storytelling circles. Every corner is designed to spark a question — and every question is met with a guided discovery.",
-  points: [
-    { icon: "🧩", label: "Play-based pedagogy" },
-    { icon: "🎨", label: "Art & sensory studios" },
-    { icon: "📚", label: "Early literacy circles" },
-    { icon: "🌱", label: "Outdoor nature lab" },
+  eyebrowTop: "Child-Centered",
+  title: "Learning Hub",
+  body: "Welcome to a hub of joyful discovery — a warm, child-first space where early learning is woven into play, movement and conversation. Our educators design every day around curiosity, so children build real understanding, happiness and confidence.",
+  image: img("toddler,playing,blocks", 700, 700, 104),
+  badges: [
+    { icon: "🧒", label: "Child-Centered Learning Approach" },
+    { icon: "🌳", label: "Large Outdoor Spaces" },
+    { icon: "🛡️", label: "Safe & Secure Environment" },
   ],
-  image: "/images/learning-hub.svg",
 };
 
 export const STATS = [
-  { value: 12, suffix: "+", label: "Years of joyful learning" },
-  { value: 4800, suffix: "+", label: "Happy graduates" },
-  { value: 6, suffix: "", label: "Campuses across the city" },
-  { value: 98, suffix: "%", label: "Parent happiness score" },
+  { value: 2000, suffix: "+", label: "Sessions every month" },
+  { value: 7, suffix: "+", label: "Years of Trust (Since 2019)" },
+  { value: 100, suffix: "+", label: "Parents & Staff community" },
 ];
 
-export const FEATURES = [
+export const CORNERS = [
   {
-    eyebrow: "Safe & Nurturing",
-    title: "A second home, built for tiny explorers",
-    body: "CCTV-monitored campuses, trained caregivers, child-proofed corners and a strict 1:8 teacher ratio — so every child is seen, heard and hugged.",
-    cta: "Our Safety Promise",
-    image: "/images/feature-1.svg",
-    accent: "teal" as const,
+    script: "The Feel Corner",
+    title: "Where Conscious Connections Happen.",
+    body: "We provide a safe, nurturing space for children to understand and express their feelings — helping them build strong connections with parents, peers and the world around them.",
+    cta: "Learn More",
+    image: img("teacher,child,reading", 800, 800, 105),
+    flipped: false,
+    tint: true,
   },
   {
-    eyebrow: "Learning by Doing",
-    title: "Hands-on projects that make ideas stick",
-    body: "From baking math to puddle science, our project weeks let children touch, build and break things — because real understanding is messy and wonderful.",
-    cta: "Peek Into a Project Week",
-    image: "/images/feature-2.svg",
-    accent: "berry" as const,
-  },
-  {
-    eyebrow: "Future Ready",
-    title: "Confidence that walks into big school smiling",
-    body: "Our school-readiness track builds vocabulary, numeracy and social grace, with transition workshops for parents in the final term.",
-    cta: "School Readiness Plan",
-    image: "/images/feature-3.svg",
-    accent: "grape" as const,
+    script: "The Do and Think Corner",
+    title: "Where Kids Do, Try and Learn.",
+    body: "Children learn through hands-on activity and imaginative play. We guide their little discoveries and big experiments, turning every question into a small project they can touch, build and feel proud of.",
+    cta: "Learn More",
+    image: img("children,craft,painting", 800, 800, 106),
+    flipped: true,
+    tint: false,
   },
 ];
 
 export const TESTIMONIALS = [
   {
-    name: "Ananya's Mom",
-    role: "Parent, Playgroup",
-    quote: "She runs to the gate every morning. That's all the review you need.",
-    thumb: "/images/testimonial-1.svg",
+    name: "Parents of Aarav",
+    image: img("family,parents,portrait", 700, 800, 107),
+    video: true,
   },
   {
-    name: "Vihaan's Dad",
-    role: "Parent, Nursery",
-    quote: "The teachers know my son better than his grandparents do. Astonishing care.",
-    thumb: "/images/testimonial-2.svg",
+    name: "Mother of Anaya",
+    image: img("mother,child,happy", 700, 800, 108),
+    video: true,
   },
   {
-    name: "Sara's Parents",
-    role: "Parents, Junior KG",
-    quote: "We moved across town and kept the same campus. Worth every extra mile.",
-    thumb: "/images/testimonial-3.svg",
-  },
-  {
-    name: "Advik's Mom",
-    role: "Parent, Senior KG",
-    quote: "He started reading street signs aloud at five. The literacy circles work.",
-    thumb: "/images/testimonial-4.svg",
+    name: "Mother of Vivaan",
+    image: img("mother,baby,smile", 700, 800, 109),
+    video: true,
   },
 ];
 
 export const AGE_GROUPS = [
   {
-    badge: "1.5 – 2.5 yrs",
-    title: "Playgroup",
-    body: "Gentle separation, sensory play and first friendships.",
-    image: "/images/age-1.svg",
-    color: "bg-sky-pop",
+    badge: "1.5–2 Years",
+    title: "Toddlers",
+    body: "Gentle care for the tiniest learners.",
+    image: img("toddler,playing,toys", 700, 550, 110),
   },
   {
-    badge: "2.5 – 3.5 yrs",
-    title: "Nursery",
-    body: "Language explosion, motor skills and circle time.",
-    image: "/images/age-2.svg",
-    color: "bg-berry-pop",
+    badge: "2–3 Years",
+    title: "Junior 1",
+    body: "First steps into a world of wonder.",
+    image: img("toddler,kindergarten,learning", 700, 550, 111),
   },
   {
-    badge: "3.5 – 4.5 yrs",
-    title: "Junior KG",
-    body: "Pre-writing, early numeracy and confident expression.",
-    image: "/images/age-3.svg",
-    color: "bg-leaf-pop",
+    badge: "3–4 Years",
+    title: "Junior 2",
+    body: "Where every discovery sparks joy.",
+    image: img("child,preschool,drawing", 700, 550, 112),
   },
   {
-    badge: "4.5 – 6 yrs",
-    title: "Senior KG",
-    body: "School readiness, reading fluency and leadership play.",
-    image: "/images/age-4.svg",
-    color: "bg-grape-pop",
+    badge: "4–5 Years",
+    title: "Junior 3",
+    body: "Growing confidence through joyful learning.",
+    image: img("children,classroom,activity", 700, 550, 113),
+  },
+  {
+    badge: "5–6 Years",
+    title: "K1",
+    body: "Building fluency with brilliance and care.",
+    image: img("kid,school,writing", 700, 550, 114),
+  },
+  {
+    badge: "6–7 Years",
+    title: "K2",
+    body: "Prepared for school — inspired for life.",
+    image: img("children,school,books", 700, 550, 115),
   },
 ];
 
-export const CAMPUSES = [
+export const NURSERY_TABS = [
   {
-    name: "Jubilee Hills",
-    tag: "Flagship Campus",
-    image: "/images/campus-1.svg",
-    gradient: "from-brand-200 via-brand-100 to-cream",
+    label: "Preschool Zone",
+    image: img("preschool,children,group", 1300, 700, 116),
   },
   {
-    name: "Gachibowli",
-    tag: "Day-care + Preschool",
-    image: "/images/campus-2.svg",
-    gradient: "from-sky-pop/30 via-brand-50 to-cream",
+    label: "Day-care Zone",
+    image: img("daycare,kids,playing", 1300, 700, 117),
   },
   {
-    name: "Kondapur",
-    tag: "Preschool",
-    image: "/images/campus-3.svg",
-    gradient: "from-berry-pop/25 via-brand-50 to-cream",
+    label: "Outdoor Play",
+    image: img("playground,children,outdoor", 1300, 700, 118),
   },
 ];
 
 export const BLOG_POSTS = [
   {
-    title: "Why boredom is a gift: raising self-starters",
-    category: "Parenting",
-    date: "May 28, 2026",
-    image: "/images/blog-1.svg",
+    title: "How play builds the thinking brain",
+    date: "28 May 2026",
+    image: img("children,playing,education", 800, 560, 119),
   },
   {
-    title: "5 snack-box swaps your toddler will actually eat",
-    category: "Nutrition",
-    date: "May 14, 2026",
-    image: "/images/blog-2.svg",
+    title: "Helping toddlers name big feelings",
+    date: "14 May 2026",
+    image: img("toddler,emotions,child", 800, 560, 120),
   },
   {
-    title: "Screen time before six: what the research says",
-    category: "Research",
-    date: "Apr 30, 2026",
-    image: "/images/blog-3.svg",
+    title: "Five outdoor games for tiny scientists",
+    date: "30 Apr 2026",
+    image: img("kids,outdoor,nature", 800, 560, 121),
+  },
+  {
+    title: "A gentle start: easing the first goodbye",
+    date: "16 Apr 2026",
+    image: img("parent,child,school", 800, 560, 122),
   },
 ];
 
-export const GALLERY = [
-  { image: "/images/gallery-1.svg", tall: true },
-  { image: "/images/gallery-2.svg", tall: false },
-  { image: "/images/gallery-3.svg", tall: false },
-  { image: "/images/gallery-4.svg", tall: true },
-  { image: "/images/gallery-5.svg", tall: false },
-  { image: "/images/gallery-6.svg", tall: true },
+export const LIFE_GALLERY = [
+  { image: img("children,dance,school", 700, 900, 123), tall: true },
+  { image: img("kids,art,classroom", 700, 500, 124), tall: false },
+  { image: img("children,sports,day", 700, 500, 125), tall: false },
+  { image: img("kids,celebration,festival", 700, 900, 126), tall: true },
+  { image: img("children,music,fun", 700, 500, 127), tall: false },
+  { image: img("kids,garden,activity", 700, 900, 128), tall: true },
+  { image: img("children,yoga,exercise", 700, 500, 129), tall: false },
+  { image: img("kids,storytime,reading", 700, 500, 130), tall: false },
 ];
 
-export const INSTAGRAM = [
-  "/images/insta-1.svg",
-  "/images/insta-2.svg",
-  "/images/insta-3.svg",
-  "/images/insta-4.svg",
-  "/images/insta-5.svg",
-  "/images/insta-6.svg",
-];
+export const INSTAGRAM = Array.from({ length: 8 }, (_, i) => ({
+  image: img("kids,school,happy", 600, 600, 131 + i),
+  reel: i % 2 === 0,
+}));
 
 export const EVENT = {
-  eyebrow: "Upcoming Event",
-  title: "Summer Splash Camp 2026",
-  body: "Two weeks of water play, clay studios and campfire stories. Open to all children aged 2–6 — members and non-members welcome.",
-  date: "June 22 – July 4",
-  cta: "Reserve a Spot",
-  image: "/images/event.svg",
+  eyebrow: "Upcoming Events",
+  title: "Celebrating Fitness Day at Campus",
+  date: "28 June 2026",
+  body: "A morning of races, stretches and giggles — families welcome!",
+  cta: "View All Events",
+  image: img("children,sports,outdoor", 1600, 800, 139),
 };
 
-export const FOOTER_COLUMNS = [
-  {
-    heading: "Explore",
-    links: ["About Us", "Programs", "Campuses", "Admissions", "Careers"],
+export const FOOTER = {
+  about: ["About Us", "Our Team", "Testimonials", "Careers", "Privacy Policy"],
+  curriculum: ["Curriculum", "Programs", "Admissions", "Behaviour Policy", "FAQs"],
+  admissions: {
+    heading: "Admissions Open for 2026–27",
+    phone: "+91 90000 00000",
+    email: "hello@yello.example",
   },
-  {
-    heading: "Programs",
-    links: ["Playgroup", "Nursery", "Junior KG", "Senior KG", "Day-care"],
-  },
-  {
-    heading: "Resources",
-    links: ["Blog", "Gallery", "Parent Handbook", "FAQs", "Fee Structure"],
-  },
-];
+  campuses: [
+    {
+      name: "Yello Preschool and Daycare, Jubilee Hills",
+      address: "Plot 12, Road No. 36, Jubilee Hills, Hyderabad 500033",
+    },
+    {
+      name: "Yello Preschool and Daycare, Gachibowli",
+      address: "Survey 45, Tower Lane, Gachibowli, Hyderabad 500032",
+    },
+    {
+      name: "Yello Preschool and Daycare, Kondapur",
+      address: "8-2-120, Green Park Colony, Kondapur, Hyderabad 500084",
+    },
+  ],
+};

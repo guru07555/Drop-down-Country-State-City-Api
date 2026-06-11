@@ -4,88 +4,75 @@ import { useState } from "react";
 import Image from "next/image";
 import clsx from "clsx";
 import { motion, AnimatePresence } from "framer-motion";
-import { CAMPUSES } from "@/lib/data";
-import SectionHeading from "@/components/ui/SectionHeading";
+import { NURSERY_TABS } from "@/lib/data";
 import { Reveal } from "@/components/ui/Reveal";
-import MagneticButton from "@/components/ui/MagneticButton";
 
 /**
- * Campus showcase: pill tabs switch the active campus; the active panel
- * cross-fades in over a soft gradient backdrop.
+ * "A Day at Yello" nursery explorer: pill tabs over one large rounded
+ * group photo on the warm orange gradient band; switching tabs
+ * cross-fades the photo.
  */
 export default function Campuses() {
   const [active, setActive] = useState(0);
-  const campus = CAMPUSES[active];
+  const tab = NURSERY_TABS[active];
 
   return (
-    <section id="campuses" className="section-pad overflow-hidden">
+    <section
+      id="schools"
+      className="section-pad relative overflow-hidden bg-gradient-to-b from-brand-200 via-brand-100 to-cream-dark"
+    >
       <div className="shell">
-        <SectionHeading
-          eyebrow="Our Campuses"
-          title="Six sunny campuses, one warm welcome"
-          body="Every campus is purpose-built — open courtyards, soft floors and lots of light."
-        />
+        <Reveal className="mb-10 text-center">
+          <p className="font-script text-3xl font-semibold text-tangerine sm:text-4xl">
+            A Day at Yello
+          </p>
+          <h2 className="mt-2 font-display text-display-md font-extrabold text-ink">
+            Explore Our Nurseries
+          </h2>
+          <p className="mx-auto mt-4 max-w-xl text-base text-ink-mute">
+            Step inside and see what a morning here feels like — pick a zone
+            to peek into.
+          </p>
+        </Reveal>
 
         {/* Tabs */}
         <Reveal className="mb-10 flex flex-wrap justify-center gap-3">
-          {CAMPUSES.map((c, i) => (
+          {NURSERY_TABS.map((t, i) => (
             <button
-              key={c.name}
+              key={t.label}
               type="button"
               onClick={() => setActive(i)}
               data-cursor="hover"
               className={clsx(
                 "rounded-full px-6 py-2.5 font-display text-sm font-bold transition-all duration-300 ease-out-expo",
                 active === i
-                  ? "bg-ink text-white shadow-card"
+                  ? "bg-tangerine text-white shadow-cta"
                   : "bg-white text-ink-soft shadow-card hover:-translate-y-0.5"
               )}
             >
-              {c.name}
+              {t.label}
             </button>
           ))}
         </Reveal>
 
-        {/* Active campus panel */}
+        {/* Photo panel */}
         <AnimatePresence mode="wait">
           <motion.div
-            key={campus.name}
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -16 }}
+            key={tab.label}
+            initial={{ opacity: 0, scale: 0.97 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.99 }}
             transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            className={clsx(
-              "grid items-center gap-10 rounded-6xl bg-gradient-to-br p-8 sm:p-12 lg:grid-cols-2",
-              campus.gradient
-            )}
+            className="img-zoom-wrap relative mx-auto aspect-[16/9] w-full max-w-5xl overflow-hidden rounded-5xl border-4 border-white shadow-card sm:aspect-[16/8]"
+            data-cursor="hover"
           >
-            <div className="img-zoom-wrap relative aspect-[16/10] overflow-hidden rounded-4xl shadow-card" data-cursor="hover">
-              <Image
-                src={campus.image}
-                alt={`${campus.name} campus`}
-                fill
-                className="object-cover"
-                sizes="(min-width: 1024px) 36rem, 90vw"
-              />
-            </div>
-            <div>
-              <span className="eyebrow mb-4">{campus.tag}</span>
-              <h3 className="font-display text-display-md font-extrabold text-ink">
-                {campus.name}
-              </h3>
-              <p className="mt-4 max-w-md text-base leading-relaxed text-ink-mute">
-                Sun-lit classrooms, a sensory garden, splash zone and a
-                parent lounge — drop in any working day for a guided tour.
-              </p>
-              <div className="mt-7 flex flex-wrap gap-4">
-                <MagneticButton href="#contact" className="btn-primary">
-                  Visit This Campus
-                </MagneticButton>
-                <MagneticButton href="#contact" className="btn-light">
-                  Get Directions
-                </MagneticButton>
-              </div>
-            </div>
+            <Image
+              src={tab.image}
+              alt={tab.label}
+              fill
+              className="object-cover"
+              sizes="(min-width: 1024px) 64rem, 95vw"
+            />
           </motion.div>
         </AnimatePresence>
       </div>

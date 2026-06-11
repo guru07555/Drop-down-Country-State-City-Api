@@ -1,29 +1,31 @@
-import { FOOTER_COLUMNS } from "@/lib/data";
+import { FOOTER } from "@/lib/data";
 import { Reveal, RevealGroup, RevealItem } from "@/components/ui/Reveal";
+import MagneticButton from "@/components/ui/MagneticButton";
 
 const SOCIALS = ["Instagram", "Facebook", "YouTube", "LinkedIn"];
 
+/**
+ * Yellow footer: link columns + admissions block with CTA, social icon
+ * row, then a band of campus address cards and the copyright bar.
+ */
 export default function Footer() {
   return (
-    <footer id="contact" className="relative overflow-hidden bg-ink text-white">
-      {/* Scalloped top edge */}
-      <div aria-hidden className="absolute inset-x-0 top-0 flex -translate-y-1/2 justify-center gap-2 opacity-0" />
-
-      <div className="shell section-pad">
+    <footer id="contact" className="relative overflow-hidden bg-brand text-ink">
+      <div className="shell pt-16 sm:pt-20">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-8">
-          {/* Brand column */}
-          <Reveal className="lg:col-span-4">
+          {/* Brand + socials */}
+          <Reveal className="lg:col-span-3">
             <a href="#top" className="flex items-center gap-2">
-              <span className="grid h-11 w-11 place-items-center rounded-full bg-brand font-display text-xl font-extrabold text-ink">
-                y
+              <span className="grid h-11 w-11 place-items-center rounded-full bg-white font-display text-lg font-extrabold text-tangerine shadow-card">
+                Y
               </span>
-              <span className="font-display text-2xl font-extrabold tracking-tight">
-                yello<span className="text-brand">.</span>
+              <span className="font-display text-2xl font-extrabold tracking-tight text-tangerine">
+                Yello
               </span>
             </a>
-            <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/70">
-              A play-first early learning school where every child is seen,
-              heard and celebrated. Six campuses, one big happy family.
+            <p className="mt-5 max-w-xs text-sm leading-relaxed text-ink-soft">
+              A play-first preschool and day-care where every child is seen,
+              heard and celebrated.
             </p>
             <div className="mt-6 flex gap-3">
               {SOCIALS.map((s) => (
@@ -31,7 +33,7 @@ export default function Footer() {
                   key={s}
                   href="#"
                   aria-label={s}
-                  className="grid h-10 w-10 place-items-center rounded-full bg-white/10 font-display text-xs font-bold transition-all duration-300 hover:-translate-y-1 hover:bg-brand hover:text-ink"
+                  className="grid h-10 w-10 place-items-center rounded-full bg-white font-display text-xs font-bold text-tangerine shadow-card transition-all duration-300 hover:-translate-y-1 hover:bg-tangerine hover:text-white"
                 >
                   {s[0]}
                 </a>
@@ -40,10 +42,13 @@ export default function Footer() {
           </Reveal>
 
           {/* Link columns */}
-          <RevealGroup className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:col-span-5" stagger={0.08}>
-            {FOOTER_COLUMNS.map((col) => (
+          <RevealGroup className="grid grid-cols-2 gap-8 lg:col-span-5" stagger={0.08}>
+            {[
+              { heading: "About", links: FOOTER.about },
+              { heading: "Learning", links: FOOTER.curriculum },
+            ].map((col) => (
               <RevealItem key={col.heading}>
-                <h4 className="font-display text-sm font-bold uppercase tracking-[0.16em] text-brand">
+                <h4 className="font-display text-sm font-extrabold uppercase tracking-[0.16em] text-tangerine">
                   {col.heading}
                 </h4>
                 <ul className="mt-5 space-y-3">
@@ -51,7 +56,7 @@ export default function Footer() {
                     <li key={link}>
                       <a
                         href="#"
-                        className="text-sm text-white/70 transition-colors hover:text-white"
+                        className="text-sm font-medium text-ink-soft transition-colors hover:text-tangerine"
                       >
                         {link}
                       </a>
@@ -62,27 +67,44 @@ export default function Footer() {
             ))}
           </RevealGroup>
 
-          {/* Contact column */}
-          <Reveal className="lg:col-span-3" delay={0.15}>
-            <h4 className="font-display text-sm font-bold uppercase tracking-[0.16em] text-brand">
-              Say Hello
-            </h4>
-            <ul className="mt-5 space-y-3 text-sm text-white/70">
-              <li>hello@yello.example</li>
-              <li>+91 90000 00000</li>
-              <li>Mon – Sat, 9am – 6pm</li>
-            </ul>
-            <a href="#" className="btn-primary mt-6">
-              Book a Visit
-            </a>
+          {/* Admissions block */}
+          <Reveal className="lg:col-span-4" delay={0.15}>
+            <div className="rounded-4xl bg-white/70 p-7 shadow-card backdrop-blur-sm">
+              <h4 className="font-display text-lg font-extrabold text-ink">
+                {FOOTER.admissions.heading}
+              </h4>
+              <ul className="mt-4 space-y-2 text-sm font-medium text-ink-soft">
+                <li>📞 {FOOTER.admissions.phone}</li>
+                <li>✉️ {FOOTER.admissions.email}</li>
+              </ul>
+              <div className="mt-6">
+                <MagneticButton href="#contact" className="btn-primary">
+                  Book a Free Tour
+                </MagneticButton>
+              </div>
+            </div>
           </Reveal>
         </div>
 
-        <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-white/50 sm:flex-row">
+        {/* Campus addresses */}
+        <RevealGroup className="mt-14 grid gap-6 border-t border-ink/10 pt-10 sm:grid-cols-3" stagger={0.1}>
+          {FOOTER.campuses.map((campus) => (
+            <RevealItem key={campus.name}>
+              <h5 className="font-display text-sm font-extrabold text-ink">
+                {campus.name}
+              </h5>
+              <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+                {campus.address}
+              </p>
+            </RevealItem>
+          ))}
+        </RevealGroup>
+
+        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-ink/10 py-7 text-xs font-semibold text-ink-soft sm:flex-row">
           <p>© {new Date().getFullYear()} Yello Early Learning. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="transition-colors hover:text-white">Privacy Policy</a>
-            <a href="#" className="transition-colors hover:text-white">Terms of Use</a>
+            <a href="#" className="transition-colors hover:text-tangerine">Privacy Policy</a>
+            <a href="#" className="transition-colors hover:text-tangerine">Terms of Use</a>
           </div>
         </div>
       </div>

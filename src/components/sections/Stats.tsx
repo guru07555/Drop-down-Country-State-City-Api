@@ -43,9 +43,9 @@ export default function Stats() {
   }, []);
 
   return (
-    <section ref={root} className="relative overflow-hidden bg-tangerine">
+    <section ref={root} className="relative overflow-hidden bg-gradient-to-r from-tangerine via-tangerine to-brand-600">
       <FloatingShapes variant="warm" />
-      <div className="shell relative grid grid-cols-2 gap-x-6 gap-y-12 py-16 sm:py-20 lg:grid-cols-4">
+      <div className="shell relative grid grid-cols-1 gap-x-6 gap-y-10 py-14 sm:grid-cols-3 sm:py-16">
         {STATS.map((stat) => (
           <div key={stat.label} data-stat className="text-center">
             <p className="font-display text-5xl font-extrabold text-white sm:text-6xl">

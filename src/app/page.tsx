@@ -18,7 +18,8 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <main>
+      {/* Offset for the fixed top-strip + nav bar */}
+      <main className="pt-[88px] lg:pt-[96px]">
         <Hero />
         <LogoStrip />
         <LearningHub />

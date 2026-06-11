@@ -1,19 +1,19 @@
 import type { Metadata, Viewport } from "next";
-import { Baloo_2, Nunito } from "next/font/google";
+import { Poppins, Caveat } from "next/font/google";
 import "./globals.css";
 import SmoothScrollProvider from "@/components/providers/SmoothScrollProvider";
 import CursorFollower from "@/components/ui/CursorFollower";
 
-const display = Baloo_2({
+const display = Poppins({
   subsets: ["latin"],
   variable: "--font-display",
-  weight: ["500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
-const body = Nunito({
+const script = Caveat({
   subsets: ["latin"],
-  variable: "--font-body",
-  weight: ["400", "600", "700"],
+  variable: "--font-script",
+  weight: ["500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -39,7 +39,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable}`}>
+    <html lang="en" className={`${display.variable} ${script.variable}`}>
       <body>
         <SmoothScrollProvider>
           <CursorFollower />
