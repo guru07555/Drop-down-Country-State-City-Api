@@ -70,7 +70,7 @@ body {
   }
 
   .img-zoom-wrap {
-    @apply overflow-hidden;
+    @apply overflow-hidden bg-brand-100;
   }
 
   .img-zoom-wrap img {
