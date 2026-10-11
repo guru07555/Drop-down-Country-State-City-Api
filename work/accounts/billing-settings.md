@@ -3,7 +3,7 @@
 The account-manager won't create invoices until this is filled in. Confirm the tax details with your CA.
 
 - Agency legal name:
-- Address (with state):
+- Address (with state): Gali No. 1, behind Bus Stand, Ladwa, Haryana 136132
 - GSTIN:
 - PAN:
 - Invoice prefix (e.g. AG):
