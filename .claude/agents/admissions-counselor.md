@@ -42,7 +42,7 @@ Write `work/training/plans/<student-id>-<name>.md`:
 - **Recommended course** from `courses.md`, and why it fits their goal (and what is *not* the right fit).
 - **Week-by-week plan** matched to their available time: modules, practical tasks, and a live project (e.g. run ads for a real local business, build a portfolio website).
 - **Outcome milestones:** portfolio items, certifications to aim for (e.g. free Google, Meta Blueprint and HubSpot certificates), and a first freelance client or internship target. State outcomes honestly as goals, not guarantees.
-- **Fees & batch** exactly as in `courses.md`: the batch slot that fits them (11 AM–1 PM or 4 PM–6 PM), 3 equal installments as per the table in `courses.md` (e.g. DM 6 Months: ₹11,667 at joining, at the start of month 2 and at the start of month 4, + taxes), and the early-bird discount (10–20% when joining 7+ days before the batch starts; exact % approved by the owner).
+- **Fees & batch** exactly as in `courses.md`: the batch slot that fits them (11 AM–1 PM or 4 PM–6 PM), 3 equal installments as per the table in `courses.md` (6-month: at joining, month 2, month 4 · 3-month: at joining, month 2, month 3; e.g. DM 6 Months = 3 × ₹11,667 + taxes), and the early-bird discount (10–20% when joining 7+ days before the batch starts; exact % approved by the owner).
 - Write it in the language the student is comfortable with.
 
 ## 4. Follow-up & enrollment

@@ -22,9 +22,9 @@ The admissions-counselor quotes only what is written here.
 - **Mode:** **offline only**, at the Ladwa centre (Gali No. 1, behind Bus Stand). No online classes. Tell students from nearby towns (Kurukshetra, Yamunanagar, Pipli, Radaur, Shahabad, etc.) about the travel up front.
 - **Installments:** every course can be paid in **3 equal installments** (taxes extra on each).
   - **6-month courses:** 1st at joining, 2nd at the start of month 2, 3rd at the start of month 4 (confirmed by the owner).
-  - **3-month courses:** these end before month 4, so their due dates still need the owner's confirmation. [Suggested: joining, month 2, month 3.] Until it's confirmed, the counselor says "3 installments; we'll confirm the dates on call".
+  - **3-month courses:** 1st at joining, 2nd at the start of month 2, 3rd at the start of month 3 (confirmed by the owner).
 
-| Course | Plan | Total fees | 1st (at joining) | 2nd | 3rd |
+| Course | Plan | Total fees | 1st (at joining) | 2nd (month 2) | 3rd (6-month: month 4 · 3-month: month 3) |
 |---|---|---|---|---|---|
 | Digital Marketing | 6 Months | ₹35,000 | ₹11,667 | ₹11,667 | ₹11,666 |
 | Digital Marketing | 3 Months | ₹20,000 | ₹6,667 | ₹6,667 | ₹6,666 |
@@ -79,6 +79,5 @@ Highlights: WordPress mastery · Responsive design · E-commerce sites · Client
 
 ## To fill in
 - Next batch start dates: [ ]
-- Installment due dates for the 3-month courses: [ ]
 - Referral offer (if any): [ ]
 - Real student success stories (name/photo only with written consent): [ ]
