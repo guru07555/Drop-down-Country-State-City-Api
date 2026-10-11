@@ -1,27 +1,23 @@
 # Agency Profile: Divy Digital Hub
 
-Every agent reads this file for the company's details. Only verified facts go here. Fill in or correct the `[ ]` fields.
+Every agent reads this file for the company's details. Source: divydigitalhub.com (screenshot shared by the owner, Oct 2026) and the Product Hunt listing.
 
-> **Note:** these details came from a Product Hunt listing in web search results, because divydigitalhub.com couldn't be fetched from this environment (network blocked). Please confirm them and fill in the rest from the website.
-
-## Verified (from public listing)
 - **Name:** Divy Digital Hub
-- **Website:** https://divydigitalhub.com/
+- **Tagline:** Build Skills Build Brands
 - **Type:** Digital marketing agency and training institute
-- **Location:** Ladwa (Kurukshetra district, Haryana)
-- **Services listed:** SEO, Google Ads, Social Media Marketing
-- **Training:** "100% practical courses", "crafted by working professionals", "from your first click to your first client"
+- **About (from the website):** "A professional digital marketing institute based in Ladwa, dedicated to equipping students, professionals, and entrepreneurs with job-ready skills and real-world training needed to excel in today's fast-paced digital economy."
+- **Address:** Gali No. 1, behind Bus Stand, Ladwa, Haryana 136132
+- **Phone / WhatsApp:** +91 97794 09669
+- **Email:** divydigitalhub@gmail.com
+- **Website:** https://divydigitalhub.com/ (pages: Home, About, Services, Courses, Certificates, Blogs, Contact)
+- **Social:** Facebook and Instagram (links: [ ])
+- **Main CTAs:** "Book Free Demo Class" and "Call now for a FREE counselling session"
+- **Training courses:** see `work/training/courses.md`
+- **Training stats (website):** 500+ students trained, 95% placement rate, 3 expert courses, 50+ hiring partners
+- **Agency services:** SEO, Google Ads, Social Media Marketing (from listing). Full list: [ ]
 
 ## To fill in
-- Tagline: [ ]
-- Full address: [ ]
-- Phone / WhatsApp: [ ]
-- Email: [ ]
-- Social media links (Instagram, Facebook, YouTube, LinkedIn): [ ]
 - Year started / years of experience: [ ]
 - Founder / team: [ ]
-- All agency services (website development, graphic design, video, etc.): [ ]
-- Number of clients / projects (real numbers only): [ ]
-- Number of students trained (real numbers only): [ ]
-- USPs: [ ]
-- Brand colors and fonts: [ ]
+- Agency client count and case studies (real only): [ ]
+- Brand colors: orange/amber gradient on a cream background (from the website). Exact hex codes and fonts: [ ]

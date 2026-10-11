@@ -98,7 +98,9 @@ work/
     └── do-not-contact.csv   ← Jo mana kar de, unhe dobara email nahi
 ```
 
-**Shuru karne se pehle** yeh 5 files bhar dijiye: `work/agency-profile.md` (company details), `work/training/courses.md` (courses aur fees), `work/outreach/offers.md` (services aur prices), `work/outreach/settings.md` (agency details) aur `work/accounts/billing-settings.md` (GST aur bank details). Inke bina agents prices, details ya tax khud se nahi banayenge.
+`work/agency-profile.md` aur `work/training/courses.md` website se bhar diye gaye hain. Courses mein sirf installments aur batch timings baaki hain. Digital Marketing mein **6 month** course sabse pehle promote hota hai, uske baad 3 month; 45 days promote nahi hota.
+
+**Shuru karne se pehle** yeh files bhar dijiye: `work/outreach/offers.md` (services aur prices), `work/outreach/settings.md` (agency details) aur `work/accounts/billing-settings.md` (GST aur bank details). Inke bina agents prices, details ya tax khud se nahi banayenge.
 
 ## Safety rules (team inhe follow karti hai)
 - **Paisa:** Meta/Google Ads ka budget aapki "yes" ke bina launch nahi hoga.

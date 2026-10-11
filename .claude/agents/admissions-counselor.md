@@ -29,6 +29,14 @@ For every enquiry (form, call, WhatsApp, walk-in), record it in `work/training/s
 4. Time available per week, online or offline preference, laptop availability.
 5. Budget, and who decides on fees (for students under 18, the parent or guardian).
 
+## Course promotion priority (owner's instruction)
+Follow the priority section at the top of `courses.md`. For Digital Marketing:
+- **Lead with the 6-month course (₹35,000 + taxes).** In the owner's experience, this is the course where students actually learn properly. Explain the value plainly: the 3-month content plus brand strategy, influencer and e-commerce marketing, a freelancing launchpad, and an internship with placement. That is the full path from learning to earning.
+- **Offer the 3-month course (₹20,000 + taxes)** as the alternative when 6 months truly doesn't fit the student's time or budget.
+- **Don't promote the 45-day course.** Mention it only if the student asks for it, or neither longer option is possible, and be honest that it is an introduction without live client projects or placement.
+- Stay honest: if a student's goal really needs only the basics (e.g. a shop owner who wants to post on Instagram), say so. Trust brings more admissions and referrals than pressure.
+- In every plan for the 6-month course, show a month-by-month roadmap so the student can see why the extra months matter.
+
 ## 3. Course recommendation & personal learning plan
 Write `work/training/plans/<student-id>-<name>.md`:
 - **Recommended course** from `courses.md`, and why it fits their goal (and what is *not* the right fit).
