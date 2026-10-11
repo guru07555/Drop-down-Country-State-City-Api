@@ -18,8 +18,8 @@ Facts: `work/agency-profile.md` and `work/training/courses.md` only. Offer in ad
 - Location: the radius above (people living in or recently in the area).
 - Age: 18-45 for the lead-form campaign. Reason: the owner asked for 17+, but Meta lead forms collect personal data, and under-18s need parent consent (India's DPDP Act). 17-year-olds and school students should be reached through parents (age 25-50 audience with the "for your child" creative) or at seminars where the parent's contact is taken with consent. **Owner to confirm.**
 - Targeting method: broad targeting with location and age only, letting Meta's delivery find people, plus interest signals such as "Digital marketing", "Social media marketing", "Online marketing", "Computer course". Meta restricts sensitive targeting and Advantage+ audience applies; do not target or exclude by religion, caste, health, financial status, marital status, or any personal attribute, and do not write ad text that assumes it (see section 7).
-- Custom audiences: only from people who opted in (lead-form openers, website visitors via the Meta pixel with the cookie banner, demo-class registrants who consented). Never upload purchased or scraped lists.
-- Placements: Instagram feed/reels/stories, Facebook feed/reels (automatic placements are fine).
+- Custom audiences: only from people who opted in (lead-form openers, website visitors via the Meta pixel with the cookie banner, demo-class registrants who consented). Never upload purchased or consent-less lists.
+- Delivery spots: Instagram feed/reels/stories, Facebook feed/reels (automatic selection is fine).
 - Optimization: leads (instant form, "higher intent" form type with a review step).
 
 ## 4. Meta ad copy variations (Hinglish)
@@ -46,7 +46,7 @@ Image/video: team photo of the classroom, "a day in class" reel (video-designer)
 
 Note on variation C: "Kamao" is allowed only as a skill-building theme; do not add any earning figures. If the owner is uncomfortable, change the headline to "Seekho. Practice karo. Aage badho."
 
-Ad policy notes: no "guaranteed job", no income claims, no before/after claims, no personal-attribute assumptions ("Are you jobless/poor/failed?"), no fake testimonials, no misleading urgency.
+Ad policy notes: no "assured job", no income claims, no before/after claims, no personal-attribute assumptions ("Are you jobless/poor/failed?"), no fake testimonials, no misleading urgency.
 
 ## 5. Lead form (Meta instant form)
 Form type: Higher intent (with review). Intro: "Free demo class aur counselling ke liye register karein."
@@ -127,7 +127,7 @@ free course online, free certificate, online course, udemy, coursera, youtube, p
 (Review the search terms report weekly and add more. "45 days" is a negative because those courses are not sold.)
 
 ## 7. Policy checklist (Meta and Google education ads)
-- No guaranteed jobs, income or results: ads say "100% job assistance" only, and the landing page explains it as resume, interview prep and access to hiring partners.
+- No assured jobs, income or results: ads say "100% job assistance" only, and the landing page explains it as resume, interview prep and access to hiring partners.
 - No claims about being "top / No. 1 / best" without proof; no fake reviews or invented numbers. If using "500+ students trained", add "as per our records" on the landing page.
 - No sensitive personal-attribute assumptions in text or targeting; no targeting by minors' interests; no ads aimed at under-18s for lead capture.
 - Accurate pricing only: if fees appear, use the exact `courses.md` figures with "+ taxes" (Digital Marketing 6 Months Rs 35,000 + taxes; Digital Marketing 3 Months Rs 20,000 + taxes).

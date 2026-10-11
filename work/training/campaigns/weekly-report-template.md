@@ -81,7 +81,7 @@ Under-18 enquiries needing parent contact: [n]. Opt-outs this week: [n] (all mar
 ## 7. Quality and compliance check
 - [ ] All contacts are opt-in (form, call, walk-in, seminar sign-up).
 - [ ] Under-18s handled with parent consent.
-- [ ] No guarantee or invented number used in any message ("100% job assistance" only).
+- [ ] No promise or invented number used in any message ("100% job assistance" only).
 - [ ] Fees quoted match `courses.md`.
 - [ ] Opt-outs honoured within the same day.
 

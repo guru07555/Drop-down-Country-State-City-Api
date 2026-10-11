@@ -5,7 +5,7 @@ Audience: students (17+ on the creative side; no lead capture from under-18s), g
 Owner of production: `social-media-manager` schedules; `content-writer` finalises captions; `graphic-designer` (G) makes posts/carousels/posters; `video-designer` (V) edits reels/videos. "Self" means the team can shoot on a phone with minimal editing.
 
 Rules for every item:
-- No guaranteed job, income or salary claims. Say "100% job assistance" (resume, interview prep, hiring partners; assistance, not a job promise).
+- No assured job, income or salary claims. Say "100% job assistance" (resume, interview prep, hiring partners; assistance, not a job promise).
 - No fake testimonials or invented results. Real student content only with written consent (parent's consent for under-18s). Until real stories exist, use "a day in class", tips and myths.
 - Fees only exactly as in `courses.md` (Digital Marketing 6 Months Rs 35,000 + taxes; 3 Months Rs 20,000 + taxes). No "limited seats", no fake deadlines.
 - CTA: "Free demo class / free counselling: +91 97794 09669". Classes are offline at Ladwa.
