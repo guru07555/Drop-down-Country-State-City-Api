@@ -1,4 +1,4 @@
-# AI Agency Team: 8 Claude Agents
+# AI Agency Team: 10 Claude Agents
 
 Yeh aapki IT / digital agency ki AI team hai. Har agent ek specialist hai, aur Team Manager sabko kaam assign karke track karta hai.
 
@@ -14,20 +14,22 @@ Yeh aapki IT / digital agency ki AI team hai. Har agent ek specialist hai, aur T
 | 6 | `outreach-specialist` | Email Outreach & Appointment Setter | Leads ko offer emails, follow-ups, replies ka jawab, meeting fix karna |
 | 7 | `team-manager` | Team Manager | Task assign karna, deadlines, kya pura hua / kya baaki hai, quality check |
 | 8 | `web-developer` | Website Designer & Developer (10+ yrs) | Har type ki website: business, e-commerce, WordPress, Shopify, landing page, custom |
+| 9 | `content-writer` | Content Writer & Copywriter (English/Hindi/Hinglish) | SEO blogs, website content, ad copy, captions, video scripts, newsletters |
+| 10 | `account-manager` | Proposal & Account Manager | Proposal/quotation, deal close, client onboarding, GST invoices, payment reminders, monthly client reports |
 
 ## Kaam ka flow
 
 ```
-lead-researcher ─► outreach-specialist ─► Meeting ─► Client mila
-                                                        │
-                                                        ▼
-                                                 team-manager (tasks assign)
-                     ┌──────────────┬──────────────┬────┴─────────┬──────────────┐
-                     ▼              ▼              ▼              ▼              ▼
-              web-developer   graphic-designer  video-designer  social-media   seo-expert
-                     └──────────────┴──────────────┴──────┬───────┴──────────────┘
-                                                          ▼
-                                      team-manager (check karta hai, client report)
+lead-researcher ─► outreach-specialist ─► Meeting ─► account-manager (proposal ─► deal close ─► onboarding)
+                                                                     │
+                                                                     ▼
+                                                    team-manager (tasks assign)
+        ┌──────────────┬──────────────┬──────────────┬───────────────┼──────────────┐
+        ▼              ▼              ▼              ▼               ▼              ▼
+  content-writer  web-developer  graphic-designer video-designer social-media   seo-expert
+        └──────────────┴──────────────┴──────────────┴───────┬───────┴──────────────┘
+                                                             ▼
+                                   team-manager (quality check) ─► account-manager (report + invoice)
 ```
 
 ## Kaise use karein
@@ -40,6 +42,16 @@ lead-researcher ─► outreach-specialist ─► Meeting ─► Client mila
 **Naye clients dhundhna aur email karna:**
 ```
 /team Chandigarh aur Mohali ke 50 dental clinics dhoondo jinki website weak hai, aur unhe website + SEO offer email karo
+```
+
+**Meeting ke baad proposal:**
+```
+/team Kal Sharma Sweets ke saath meeting hui: website + SEO chahiye, budget 40k. Proposal banao
+```
+
+**Invoice:**
+```
+account-manager se Sharma Sweets ka October retainer invoice banwao
 ```
 
 **Status check:**
@@ -59,6 +71,10 @@ work/
 ├── tasks.md                 ← Task board (Manager isko update karta hai)
 ├── clients/<client-name>/   ← brief.md, design/, video/, social/, ads/, seo/, website/
 ├── leads/                   ← Lead lists (CSV)
+├── accounts/
+│   ├── billing-settings.md  ← ⚠️ GSTIN, bank/UPI, invoice prefix bharein
+│   ├── invoices.csv         ← Saare invoices aur payment status
+│   └── invoices/            ← Har invoice ki file
 └── outreach/
     ├── offers.md            ← ⚠️ Apne services aur prices yahan bharein
     ├── settings.md          ← ⚠️ Agency naam, address, email, booking link bharein
@@ -68,11 +84,12 @@ work/
     └── do-not-contact.csv   ← Jo mana kar de, unhe dobara email nahi
 ```
 
-**Shuru karne se pehle** `work/outreach/offers.md` aur `work/outreach/settings.md` bhar dijiye. Inke bina outreach agent prices ya details khud se nahi banayega.
+**Shuru karne se pehle** yeh 3 files bhar dijiye: `work/outreach/offers.md` (services aur prices), `work/outreach/settings.md` (agency details) aur `work/accounts/billing-settings.md` (GST aur bank details). Inke bina agents prices, details ya tax khud se nahi banayenge.
 
 ## Safety rules (team inhe follow karti hai)
 - **Paisa:** Meta/Google Ads ka budget aapki "yes" ke bina launch nahi hoga.
 - **Emails:** Leads ko pehla email bhejne se pehle aapko exact email aur list dikhayi jayegi.
+- **Proposal / invoice:** client ko proposal, quote, discount ya invoice aapki approval ke baad hi jayega.
 - **Website live:** Client ke domain par aapki approval ke baad hi.
 - Emails mein unsubscribe/opt-out line hogi, aur sirf public business contact details use honge (anti-spam aur privacy laws ke hisaab se).
 
@@ -87,9 +104,9 @@ work/
 | Email bhejna, replies, meetings | Emails likhna, replies draft karna, log rakhna | Gmail/Calendar connector. Uske bina mail-merge CSV milegi |
 | SEO, website | Pura kaam (audit, code, testing) | Search Console/GA4 access, hosting/domain login |
 
-## Aur kis role ki zaroorat hai? (suggestion)
-1. **Content Writer / Copywriter:** blogs, website content, captions, ad copy. SEO aur social dono ko roz content chahiye. Sabse zaroori addition hai.
-2. **Proposal & Account Manager:** meeting ke baad proposal/quotation banana, client onboarding, invoices aur monthly client reports. Lead → meeting → **deal close** wala gap yeh bharta hai.
-3. **Analytics / Reporting Specialist** (optional): GA4, ads aur SEO ka combined monthly dashboard.
+## Aage aur roles (zaroorat pade to)
+- **Analytics / Reporting Specialist:** GA4, ads aur SEO ka combined dashboard.
+- **Mobile App Developer (Flutter):** agar app development bhi bechna ho.
+- **HR / Recruiter:** jab insaani team badhani ho.
 
-Naya agent chahiye to Claude se boliye: "content-writer agent bhi banao".
+Naya agent chahiye to Claude se boliye: "<role> agent bhi banao".

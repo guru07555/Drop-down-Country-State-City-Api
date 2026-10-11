@@ -1,6 +1,6 @@
 ---
 name: team
-description: Run the agency's AI team. The main session acts as dispatcher for the team-manager plan, sends tasks to the 7 specialist agents (graphic-designer, video-designer, social-media-manager, seo-expert, web-developer, lead-researcher, outreach-specialist), and keeps work/tasks.md up to date. Use when the user says /team, gives a client job or goal, or asks for team status ("kya pending hai", "status batao").
+description: Run the agency's AI team. The main session acts as dispatcher for the team-manager plan, sends tasks to the 9 specialist agents (graphic-designer, video-designer, social-media-manager, seo-expert, web-developer, content-writer, lead-researcher, outreach-specialist, account-manager), and keeps work/tasks.md up to date. Use when the user says /team, gives a client job or goal, or asks for team status ("kya pending hai", "status batao").
 ---
 
 # Team: agency workflow
@@ -27,6 +27,7 @@ Add it to `work/tasks.md`, dispatch that agent, and update the board.
 ## Approval gates (never skip)
 - **Money:** no ad campaign is launched, and no budget raised, without the owner's explicit yes on the exact amount.
 - **Contacting people:** no email is sent to leads until the owner has seen the exact emails and recipients and said yes.
+- **Client documents:** no proposal, custom quote, discount or invoice goes to a client without the owner's yes.
 - **Going live:** no website is pushed to a client's live domain without the owner's yes.
 Mark these tasks `Needs owner approval` and ask the owner in one clear message.
 
