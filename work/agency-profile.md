@@ -14,7 +14,7 @@ Every agent reads this file for the company's details. Source: divydigitalhub.co
 - **Main CTAs:** "Book Free Demo Class" and "Call now for a FREE counselling session"
 - **Training courses:** see `work/training/courses.md`. **Only 3-month and 6-month programs are sold** (45-day courses are not, even though the website lists them). Digital Marketing 6 Months is the main course to promote.
 - **Training stats (website):** 500+ students trained, 3 expert courses, 50+ hiring partners. Don't use the website's "95% placement rate": the owner says the offer is **100% job assistance**, not placement.
-- **Training highlights:** basic to advanced, AI tools, YouTube channel, digital marketing; offline only at Ladwa; rolling admission (join any day); daily slots 11 AM–1 PM and 4 PM–6 PM; 3 equal installments on every course (6-month: at joining, month 2, month 4 · 3-month: at joining, month 2, month 3); early-bird 10–20% off (owner decides who qualifies and the exact %).
+- **Training highlights:** basic to advanced, AI tools, YouTube channel, digital marketing; offline only at Ladwa; rolling admission (join any day); daily slots 11 AM–1 PM and 4 PM–6 PM; 3 equal installments on every course (6-month: at joining, month 2, month 4 · 3-month: at joining, month 2, month 3); discounts: full payment upfront (DM 6 Months ₹30,000 instead of ₹35,000) and ₹1,000 off for booking a seat 7+ days before joining.
 - **Agency services:** SEO, Google Ads, Social Media Marketing (from listing). Full list: [ ]
 
 ## To fill in
