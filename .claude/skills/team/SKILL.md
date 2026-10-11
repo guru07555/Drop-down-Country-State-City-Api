@@ -1,13 +1,13 @@
 ---
 name: team
-description: Run the agency's AI team. The main session acts as dispatcher for the team-manager plan, sends tasks to the 9 specialist agents (graphic-designer, video-designer, social-media-manager, seo-expert, web-developer, content-writer, lead-researcher, outreach-specialist, account-manager), and keeps work/tasks.md up to date. Use when the user says /team, gives a client job or goal, or asks for team status ("kya pending hai", "status batao").
+description: Run the agency's AI team. The main session acts as dispatcher for the team-manager plan, sends tasks to the 10 specialist agents (graphic-designer, video-designer, social-media-manager, seo-expert, web-developer, content-writer, lead-researcher, outreach-specialist, account-manager, admissions-counselor), and keeps work/tasks.md up to date. Use when the user says /team, gives a client job or goal, or asks for team status ("kya pending hai", "status batao").
 ---
 
 # Team: agency workflow
 
 The request is: $ARGUMENTS
 
-Agents live in `.claude/agents/`. Subagents cannot call each other, so you (the main session) dispatch every task with the Agent tool and pass the results along.
+Agents live in `.claude/agents/`. Company details are in `work/agency-profile.md`; pass that path to every agent. Subagents cannot call each other, so you (the main session) dispatch every task with the Agent tool and pass the results along.
 
 ## Modes
 

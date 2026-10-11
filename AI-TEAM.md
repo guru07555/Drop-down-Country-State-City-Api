@@ -1,6 +1,6 @@
-# AI Agency Team: 10 Claude Agents
+# Divy Digital Hub: AI Team (11 Claude Agents)
 
-Yeh aapki IT / digital agency ki AI team hai. Har agent ek specialist hai, aur Team Manager sabko kaam assign karke track karta hai.
+Yeh Divy Digital Hub (Ladwa) ki AI team hai: digital agency + training institute. Company details `work/agency-profile.md` mein hain, aur har agent wahi se padhta hai. Har agent ek specialist hai, aur Team Manager sabko kaam assign karke track karta hai.
 
 ## Team
 
@@ -16,6 +16,7 @@ Yeh aapki IT / digital agency ki AI team hai. Har agent ek specialist hai, aur T
 | 8 | `web-developer` | Website Designer & Developer (10+ yrs) | Har type ki website: business, e-commerce, WordPress, Shopify, landing page, custom |
 | 9 | `content-writer` | Content Writer & Copywriter (English/Hindi/Hinglish) | SEO blogs, website content, ad copy, captions, video scripts, newsletters |
 | 10 | `account-manager` | Proposal & Account Manager | Proposal/quotation, deal close, client onboarding, GST invoices, payment reminders, monthly client reports |
+| 11 | `admissions-counselor` | Admissions Counselor (Training) | Students ko attract karna (seminars, demo class, ads), counselling, sahi course suggest karna, personal learning plan, follow-up, enrollment, batch tracking |
 
 ## Kaam ka flow
 
@@ -54,6 +55,12 @@ lead-researcher ─► outreach-specialist ─► Meeting ─► account-manager
 account-manager se Sharma Sweets ka October retainer invoice banwao
 ```
 
+**Training ke liye students:**
+```
+/team Agle mahine Digital Marketing batch ke liye Ladwa, Kurukshetra, Yamunanagar ke colleges mein free seminar plan karo aur demo class campaign banao
+admissions-counselor: Rahul, 21, B.Com final year, freelancing karna chahta hai, roz 2 ghante. Iske liye course plan banao
+```
+
 **Status check:**
 ```
 /team status batao, kya pura hua aur kya baaki hai
@@ -71,6 +78,13 @@ work/
 ├── tasks.md                 ← Task board (Manager isko update karta hai)
 ├── clients/<client-name>/   ← brief.md, design/, video/, social/, ads/, seo/, website/
 ├── leads/                   ← Lead lists (CSV)
+├── agency-profile.md       ← ⚠️ Company details (website se bharein)
+├── training/
+│   ├── courses.md           ← ⚠️ Courses, fees, batches bharein
+│   ├── students.csv         ← Enquiry se enrollment tak student pipeline
+│   ├── plans/               ← Har student ka personal learning plan
+│   ├── campaigns/           ← Seminar, demo class, ads plans
+│   └── batches.md
 ├── accounts/
 │   ├── billing-settings.md  ← ⚠️ GSTIN, bank/UPI, invoice prefix bharein
 │   ├── invoices.csv         ← Saare invoices aur payment status
@@ -84,12 +98,13 @@ work/
     └── do-not-contact.csv   ← Jo mana kar de, unhe dobara email nahi
 ```
 
-**Shuru karne se pehle** yeh 3 files bhar dijiye: `work/outreach/offers.md` (services aur prices), `work/outreach/settings.md` (agency details) aur `work/accounts/billing-settings.md` (GST aur bank details). Inke bina agents prices, details ya tax khud se nahi banayenge.
+**Shuru karne se pehle** yeh 5 files bhar dijiye: `work/agency-profile.md` (company details), `work/training/courses.md` (courses aur fees), `work/outreach/offers.md` (services aur prices), `work/outreach/settings.md` (agency details) aur `work/accounts/billing-settings.md` (GST aur bank details). Inke bina agents prices, details ya tax khud se nahi banayenge.
 
 ## Safety rules (team inhe follow karti hai)
 - **Paisa:** Meta/Google Ads ka budget aapki "yes" ke bina launch nahi hoga.
 - **Emails:** Leads ko pehla email bhejne se pehle aapko exact email aur list dikhayi jayegi.
 - **Proposal / invoice:** client ko proposal, quote, discount ya invoice aapki approval ke baad hi jayega.
+- **Students:** sirf unse contact jo khud enquiry karein ya form bharein. 18 saal se kam umar walon ke liye fees aur enrollment ki baat parents se, aur koi "100% job guarantee" jaisa jhootha dawa nahi.
 - **Website live:** Client ke domain par aapki approval ke baad hi.
 - Emails mein unsubscribe/opt-out line hogi, aur sirf public business contact details use honge (anti-spam aur privacy laws ke hisaab se).
 
