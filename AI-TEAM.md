@@ -16,7 +16,7 @@ Yeh Divy Digital Hub (Ladwa) ki AI team hai: digital agency + training institute
 | 8 | `web-developer` | Website Designer & Developer (10+ yrs) | Har type ki website: business, e-commerce, WordPress, Shopify, landing page, custom |
 | 9 | `content-writer` | Content Writer & Copywriter (English/Hindi/Hinglish) | SEO blogs, website content, ad copy, captions, video scripts, newsletters |
 | 10 | `account-manager` | Proposal & Account Manager | Proposal/quotation, deal close, client onboarding, GST invoices, payment reminders, monthly client reports |
-| 11 | `admissions-counselor` | Admissions Counselor (Training) | Students ko attract karna (seminars, demo class, ads), counselling, sahi course suggest karna, personal learning plan, follow-up, enrollment, batch tracking |
+| 11 | `admissions-counselor` | Admissions Counselor (Training) | Students ko attract karna (seminars, demo class, ads), counselling, sahi course suggest karna, personal learning plan, follow-up, enrollment, joining aur kishton ki tracking |
 
 ## Kaam ka flow
 
@@ -57,7 +57,7 @@ account-manager se Sharma Sweets ka October retainer invoice banwao
 
 **Training ke liye students:**
 ```
-/team Agle mahine Digital Marketing batch ke liye Ladwa, Kurukshetra, Yamunanagar ke colleges mein free seminar plan karo aur demo class campaign banao
+/team Digital Marketing admissions ke liye Ladwa, Kurukshetra, Yamunanagar ke colleges mein free seminar plan karo aur demo class campaign banao
 admissions-counselor: Rahul, 21, B.Com final year, freelancing karna chahta hai, roz 2 ghante. Iske liye course plan banao
 ```
 
@@ -80,11 +80,11 @@ work/
 ├── leads/                   ← Lead lists (CSV)
 ├── agency-profile.md       ← ⚠️ Company details (website se bharein)
 ├── training/
-│   ├── courses.md           ← ⚠️ Courses, fees, batches bharein
+│   ├── courses.md           ← Courses, fees, kishtein, time slots
 │   ├── students.csv         ← Enquiry se enrollment tak student pipeline
 │   ├── plans/               ← Har student ka personal learning plan
 │   ├── campaigns/           ← Seminar, demo class, ads plans
-│   └── batches.md
+│   └── batches.md           ← Kaun kab join hua, kaunsa slot, kitni kishtein bhari
 ├── accounts/
 │   ├── billing-settings.md  ← ⚠️ GSTIN, bank/UPI, invoice prefix bharein
 │   ├── invoices.csv         ← Saare invoices aur payment status
@@ -98,7 +98,7 @@ work/
     └── do-not-contact.csv   ← Jo mana kar de, unhe dobara email nahi
 ```
 
-`work/agency-profile.md` aur `work/training/courses.md` website se bhar diye gaye hain. Courses mein sirf installments aur batch timings baaki hain. Sirf **3 aur 6 month** wale courses beche jaate hain, 45 din wale nahi. Digital Marketing ka **6 month** course sabse pehle promote hota hai, uske baad 3 month.
+`work/agency-profile.md` aur `work/training/courses.md` website se bhar diye gaye hain. Admission kabhi bhi ho sakta hai (koi fixed batch nahi). Do daily slots hain: 11–1 aur 4–6. Har course 3 kishton mein bhara ja sakta hai. Sirf **3 aur 6 month** wale courses beche jaate hain, 45 din wale nahi. Digital Marketing ka **6 month** course sabse pehle promote hota hai, uske baad 3 month.
 
 **Shuru karne se pehle** yeh files bhar dijiye: `work/outreach/offers.md` (services aur prices), `work/outreach/settings.md` (agency details) aur `work/accounts/billing-settings.md` (GST aur bank details). Inke bina agents prices, details ya tax khud se nahi banayenge.
 
