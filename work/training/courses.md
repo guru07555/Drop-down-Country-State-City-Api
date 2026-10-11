@@ -18,7 +18,8 @@ The admissions-counselor quotes only what is written here.
 - **100% job assistance:** resume building, interview preparation and access to hiring partners for every eligible student. This is **assistance, not a guaranteed job**. Always say it that way.
 
 ## Batches, fees & offers
-- **Batch timings:** 11:00 AM – 1:00 PM, or 4:00 PM – 6:00 PM. The student picks the one that suits them.
+- **Rolling admission:** there are no fixed batch start dates. A student can join on **any day**, and their course duration counts from their own joining date.
+- **Daily time slots:** 11:00 AM – 1:00 PM, or 4:00 PM – 6:00 PM. The student picks the one that suits them.
 - **Mode:** **offline only**, at the Ladwa centre (Gali No. 1, behind Bus Stand). No online classes. Tell students from nearby towns (Kurukshetra, Yamunanagar, Pipli, Radaur, Shahabad, etc.) about the travel up front.
 - **Installments:** every course can be paid in **3 equal installments** (taxes extra on each).
   - **6-month courses:** 1st at joining, 2nd at the start of month 2, 3rd at the start of month 4 (confirmed by the owner).
@@ -33,7 +34,7 @@ The admissions-counselor quotes only what is written here.
 | Website Design | 6 Months | ₹42,000 | ₹14,000 | ₹14,000 | ₹14,000 |
 | Website Design | 3 Months | ₹22,000 | ₹7,334 | ₹7,333 | ₹7,333 |
 
-- **Early-bird discount:** **10–20% off** for students who enroll **at least 7 days before the batch starts**. The counselor may tell students this. **The exact % for a student is approved by the owner.** Never promise 20% upfront. After the deadline, there is no early-bird discount. With a discount, split the discounted fee into 3 installments (e.g. DM 6 Months at 10% off = ₹31,500 = 3 × ₹10,500).
+- **Early-bird discount:** **10–20% off.** There are no batch dates, so the old "7 days before the batch" rule doesn't apply. [Owner to define when a student qualifies, e.g. booking 7 days before their own joining date, or paying in full upfront.] Until then the counselor may say an early-bird discount of 10–20% may be available, **the exact % is approved by the owner**, and never uses a deadline to pressure anyone. With a discount, split the discounted fee into 3 installments (e.g. DM 6 Months at 10% off = ₹31,500 = 3 × ₹10,500).
 - Free demo class and free counselling session.
 
 ## Digital Marketing
@@ -78,6 +79,6 @@ Highlights: WordPress mastery · Responsive design · E-commerce sites · Client
 ⚠️ The website also says "95% placement rate". **The owner has clarified that the institute offers 100% job assistance, not placement.** Don't quote the 95% placement rate anywhere. Where the website or a plan says "Placement" or "Internship + Placement", say "Job assistance" or "Internship + job assistance".
 
 ## To fill in
-- Next batch start dates: [ ]
+- Early-bird qualifying rule (no batch dates): [ ]
 - Referral offer (if any): [ ]
 - Real student success stories (name/photo only with written consent): [ ]

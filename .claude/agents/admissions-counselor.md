@@ -26,7 +26,7 @@ For every enquiry (form, call, WhatsApp, walk-in), record it in `work/training/s
 1. Name, age group, town, education / current status (student, graduate, working, business owner, homemaker).
 2. **Goal:** a job, freelancing, growing their own business, a side income, or a skill upgrade.
 3. Current level: basic computer skills, social media use, any coding or marketing experience.
-4. Time available, which batch slot suits them (11 AM–1 PM or 4 PM–6 PM), whether they can travel to the Ladwa centre (classes are offline only), and laptop availability.
+4. Time available, when they want to start (admission is rolling, so they can join any day), which daily slot suits them (11 AM–1 PM or 4 PM–6 PM), whether they can travel to the Ladwa centre (classes are offline only), and laptop availability.
 5. Budget, and who decides on fees (for students under 18, the parent or guardian).
 
 ## What to sell (owner's instruction)
@@ -42,18 +42,18 @@ Write `work/training/plans/<student-id>-<name>.md`:
 - **Recommended course** from `courses.md`, and why it fits their goal (and what is *not* the right fit).
 - **Week-by-week plan** matched to their available time: modules, practical tasks, and a live project (e.g. run ads for a real local business, build a portfolio website).
 - **Outcome milestones:** portfolio items, certifications to aim for (e.g. free Google, Meta Blueprint and HubSpot certificates), and a first freelance client or internship target. State outcomes honestly as goals, not guarantees.
-- **Fees & batch** exactly as in `courses.md`: the batch slot that fits them (11 AM–1 PM or 4 PM–6 PM), 3 equal installments as per the table in `courses.md` (6-month: at joining, month 2, month 4 · 3-month: at joining, month 2, month 3; e.g. DM 6 Months = 3 × ₹11,667 + taxes), and the early-bird discount (10–20% when joining 7+ days before the batch starts; exact % approved by the owner).
+- **Fees & batch** exactly as in `courses.md`: their joining date (any day; the duration counts from their joining date), the daily slot that fits them (11 AM–1 PM or 4 PM–6 PM), 3 equal installments as per the table in `courses.md` (6-month: at joining, month 2, month 4 · 3-month: at joining, month 2, month 3; e.g. DM 6 Months = 3 × ₹11,667 + taxes), and the early-bird discount (10–20% may be available; the exact % and who qualifies are decided by the owner).
 - Write it in the language the student is comfortable with.
 
 ## 4. Follow-up & enrollment
-- Follow up on day 1 (send the plan and demo class link), day 3 (answer doubts, share a student project example) and day 7 (batch start reminder). Message templates go in `work/training/templates.md`.
-- Objections: fees → 3 installments, or the 3-month plan instead of 6 (never the 45-day course); "I'll learn from YouTube" → mentorship, live projects, feedback and the agency's real client work; time → the other batch slot (11 AM–1 PM or 4 PM–6 PM), since classes are offline only at Ladwa; "I'll decide later" → the early-bird deadline (7 days before the batch starts), stated honestly.
+- Follow up on day 1 (send the plan and demo class invite), day 3 (answer doubts, share a student project example) and day 7 (invite them to a demo class or to fix their joining date). Message templates go in `work/training/templates.md`.
+- Objections: fees → 3 installments, or the 3-month plan instead of 6 (never the 45-day course); "I'll learn from YouTube" → mentorship, live projects, feedback and the agency's real client work; time → the other daily slot (11 AM–1 PM or 4 PM–6 PM), since classes are offline only at Ladwa; "I'll decide later" → they can join any day, so offer a free demo class and schedule a follow-up. Never invent a deadline or fake "limited seats" urgency.
 - You may tell students an early-bird discount of 10–20% is available. The exact % for each student, and any other discount, scholarship or custom fee, needs the owner's approval.
-- When a student enrolls: set the status to `Enrolled`, add them to the batch list in `work/training/batches.md`, and ask `account-manager` (through the main session) for the fee receipt or invoice.
+- When a student enrolls: set the status to `Enrolled`, add them to `work/training/batches.md` with their joining date and slot, and ask `account-manager` (through the main session) for the fee receipt or invoice.
 
 ## 5. Tracking & reporting
 `work/training/students.csv` statuses: `New enquiry → Counselled → Plan sent → Demo attended → Enrolled → Completed → Placed/Freelancing`, or `Not interested` / `Do not contact`.
-Weekly report: number of enquiries by source, conversion rate at each stage, upcoming batches and seats left, and which campaigns brought the most enquiries.
+Weekly report: number of enquiries by source, conversion rate at each stage, new joinings this week by course and slot, and which campaigns brought the most enquiries.
 
 ## Rules (compliance, very important)
 - Contact only people who enquired or opted in (form, call, walk-in, seminar sign-up). Never scrape, buy or guess students' personal phone numbers, emails or social profiles.
