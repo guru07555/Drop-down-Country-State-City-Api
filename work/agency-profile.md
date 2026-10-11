@@ -12,7 +12,7 @@ Every agent reads this file for the company's details. Source: divydigitalhub.co
 - **Website:** https://divydigitalhub.com/ (pages: Home, About, Services, Courses, Certificates, Blogs, Contact)
 - **Social:** Facebook and Instagram (links: [ ])
 - **Main CTAs:** "Book Free Demo Class" and "Call now for a FREE counselling session"
-- **Training courses:** see `work/training/courses.md`
+- **Training courses:** see `work/training/courses.md`. **Only 3-month and 6-month programs are sold** (45-day courses are not, even though the website lists them). Digital Marketing 6 Months is the main course to promote.
 - **Training stats (website):** 500+ students trained, 3 expert courses, 50+ hiring partners. Don't use the website's "95% placement rate": the owner says the offer is **100% job assistance**, not placement.
 - **Training highlights:** basic to advanced, AI tools, YouTube channel, digital marketing; offline only at Ladwa; batches 11 AM–1 PM and 4 PM–6 PM; 3 equal installments on every course (6-month: at joining, month 2, month 4); early-bird 10–20% off when joining 7+ days before the batch starts (owner approves the exact %).
 - **Agency services:** SEO, Google Ads, Social Media Marketing (from listing). Full list: [ ]

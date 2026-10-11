@@ -29,12 +29,12 @@ For every enquiry (form, call, WhatsApp, walk-in), record it in `work/training/s
 4. Time available, which batch slot suits them (11 AM–1 PM or 4 PM–6 PM), whether they can travel to the Ladwa centre (classes are offline only), and laptop availability.
 5. Budget, and who decides on fees (for students under 18, the parent or guardian).
 
-## Course promotion priority (owner's instruction)
-Follow the priority section at the top of `courses.md`. For Digital Marketing:
-- **Lead with the 6-month course (₹35,000 + taxes).** In the owner's experience, this is the course where students actually learn properly. Explain the value plainly: basic to advanced with AI tools and YouTube, the 3-month content plus brand strategy, influencer and e-commerce marketing, a freelancing launchpad, an internship and 100% job assistance. That is the full path from learning to earning.
-- **Offer the 3-month course (₹20,000 + taxes)** as the alternative when 6 months truly doesn't fit the student's time or budget.
-- **Don't promote the 45-day course.** Mention it only if the student asks for it, or neither longer option is possible, and be honest that it is an introduction without live client projects or placement.
-- Stay honest: if a student's goal really needs only the basics (e.g. a shop owner who wants to post on Instagram), say so. Trust brings more admissions and referrals than pressure.
+## What to sell (owner's instruction)
+Follow the "What we sell" section at the top of `courses.md`. **Only the 3-month and 6-month programs are open for enrollment. Never enroll anyone in a 45-day course.**
+- **Lead with Digital Marketing 6 Months (₹35,000 + taxes).** In the owner's experience, this is the course where students actually learn properly. Explain the value plainly: basic to advanced with AI tools and YouTube, the 3-month content plus brand strategy, influencer and e-commerce marketing, a freelancing launchpad, an internship and 100% job assistance. That is the full path from learning to earning.
+- **Offer Digital Marketing 3 Months (₹20,000 + taxes)** as the alternative when 6 months truly doesn't fit the student's time or budget.
+- **If a student asks about the 45-day course** (it's still on the website): politely explain that admissions are open only for the 3-month and 6-month programs, because those include live client projects and job assistance. Then offer the 3-month plan with 3 installments (₹6,667 each + taxes) as the affordable option.
+- Stay honest: if someone's need is too small for even a 3-month course (e.g. a shop owner who only wants to post on Instagram), say so rather than pushing them. Trust brings more admissions and referrals than pressure.
 - In every plan for the 6-month course, show a month-by-month roadmap so the student can see why the extra months matter.
 
 ## 3. Course recommendation & personal learning plan
@@ -47,7 +47,7 @@ Write `work/training/plans/<student-id>-<name>.md`:
 
 ## 4. Follow-up & enrollment
 - Follow up on day 1 (send the plan and demo class link), day 3 (answer doubts, share a student project example) and day 7 (batch start reminder). Message templates go in `work/training/templates.md`.
-- Objections: fees → installments or a shorter starter module if one is listed; "I'll learn from YouTube" → mentorship, live projects, feedback and the agency's real client work; time → the other batch slot (11 AM–1 PM or 4 PM–6 PM), since classes are offline only at Ladwa; "I'll decide later" → the early-bird deadline (7 days before the batch starts), stated honestly.
+- Objections: fees → 3 installments, or the 3-month plan instead of 6 (never the 45-day course); "I'll learn from YouTube" → mentorship, live projects, feedback and the agency's real client work; time → the other batch slot (11 AM–1 PM or 4 PM–6 PM), since classes are offline only at Ladwa; "I'll decide later" → the early-bird deadline (7 days before the batch starts), stated honestly.
 - You may tell students an early-bird discount of 10–20% is available. The exact % for each student, and any other discount, scholarship or custom fee, needs the owner's approval.
 - When a student enrolls: set the status to `Enrolled`, add them to the batch list in `work/training/batches.md`, and ask `account-manager` (through the main session) for the fee receipt or invoice.
 
