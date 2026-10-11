@@ -26,7 +26,7 @@ For every enquiry (form, call, WhatsApp, walk-in), record it in `work/training/s
 1. Name, age group, town, education / current status (student, graduate, working, business owner, homemaker).
 2. **Goal:** a job, freelancing, growing their own business, a side income, or a skill upgrade.
 3. Current level: basic computer skills, social media use, any coding or marketing experience.
-4. Time available per week, online or offline preference, laptop availability.
+4. Time available, which batch slot suits them (11 AM–1 PM or 4 PM–6 PM), whether they can travel to the Ladwa centre (classes are offline only), and laptop availability.
 5. Budget, and who decides on fees (for students under 18, the parent or guardian).
 
 ## Course promotion priority (owner's instruction)
@@ -42,12 +42,12 @@ Write `work/training/plans/<student-id>-<name>.md`:
 - **Recommended course** from `courses.md`, and why it fits their goal (and what is *not* the right fit).
 - **Week-by-week plan** matched to their available time: modules, practical tasks, and a live project (e.g. run ads for a real local business, build a portfolio website).
 - **Outcome milestones:** portfolio items, certifications to aim for (e.g. free Google, Meta Blueprint and HubSpot certificates), and a first freelance client or internship target. State outcomes honestly as goals, not guarantees.
-- **Fees & batch** exactly as in `courses.md`: the batch slot that fits them (11 AM–1 PM or 4 PM–6 PM), the installment option, and the early-bird discount (10–20%, exact % approved by the owner).
+- **Fees & batch** exactly as in `courses.md`: the batch slot that fits them (11 AM–1 PM or 4 PM–6 PM), 3 equal installments (e.g. 6 Months: 3 × ₹11,667 + taxes), and the early-bird discount (10–20% when joining 7+ days before the batch starts; exact % approved by the owner).
 - Write it in the language the student is comfortable with.
 
 ## 4. Follow-up & enrollment
 - Follow up on day 1 (send the plan and demo class link), day 3 (answer doubts, share a student project example) and day 7 (batch start reminder). Message templates go in `work/training/templates.md`.
-- Objections: fees → installments or a shorter starter module if one is listed; "I'll learn from YouTube" → mentorship, live projects, feedback and the agency's real client work; time → a weekend or online batch.
+- Objections: fees → installments or a shorter starter module if one is listed; "I'll learn from YouTube" → mentorship, live projects, feedback and the agency's real client work; time → the other batch slot (11 AM–1 PM or 4 PM–6 PM), since classes are offline only at Ladwa; "I'll decide later" → the early-bird deadline (7 days before the batch starts), stated honestly.
 - You may tell students an early-bird discount of 10–20% is available. The exact % for each student, and any other discount, scholarship or custom fee, needs the owner's approval.
 - When a student enrolls: set the status to `Enrolled`, add them to the batch list in `work/training/batches.md`, and ask `account-manager` (through the main session) for the fee receipt or invoice.
 

@@ -17,9 +17,9 @@ The admissions-counselor quotes only what is written here.
 
 ## Batches, fees & offers
 - **Batch timings:** 11:00 AM – 1:00 PM, or 4:00 PM – 6:00 PM. The student picks the one that suits them.
-- **Mode:** [offline at Ladwa / online. Owner to confirm]
-- **Installments:** available. [Number of installments and amounts: owner to confirm.] Until then, say "installment option available, we'll share the exact schedule on call".
-- **Early-bird discount:** **10–20% off** for early enrollment. The counselor may tell students that an early-bird discount of 10–20% is available. **The exact % for a student is approved by the owner.** Never promise 20% upfront. [Early-bird deadline per batch: owner to set.]
+- **Mode:** **offline only**, at the Ladwa centre (Gali No. 1, behind Bus Stand). No online classes. Tell students from nearby towns (Kurukshetra, Yamunanagar, Pipli, Radaur, Shahabad, etc.) about the travel up front.
+- **Installments:** **3 equal installments.** Example: Digital Marketing 6 Months ₹35,000 = 3 × ₹11,667 (₹11,667 + ₹11,667 + ₹11,666), taxes extra. [Due dates of the 2nd and 3rd installments, and whether the same 3-installment split applies to the other courses: owner to confirm.]
+- **Early-bird discount:** **10–20% off** for students who enroll **at least 7 days before the batch starts**. The counselor may tell students this. **The exact % for a student is approved by the owner.** Never promise 20% upfront. After the deadline, there is no early-bird discount.
 - Free demo class and free counselling session.
 
 ## Digital Marketing
@@ -64,7 +64,7 @@ Highlights: WordPress mastery · Responsive design · E-commerce sites · Client
 ⚠️ The website also says "95% placement rate". **The owner has clarified that the institute offers 100% job assistance, not placement.** Don't quote the 95% placement rate anywhere. Where the website or a plan says "Placement" or "Internship + Placement", say "Job assistance" or "Internship + job assistance".
 
 ## To fill in
-- Installment schedule (number and amounts): [ ]
-- Mode (offline / online) and the next batch start dates: [ ]
-- Early-bird deadline per batch, and any referral offer: [ ]
+- Next batch start dates: [ ]
+- Installment due dates, and the installment split for courses other than DM 6 Months: [ ]
+- Referral offer (if any): [ ]
 - Real student success stories (name/photo only with written consent): [ ]
