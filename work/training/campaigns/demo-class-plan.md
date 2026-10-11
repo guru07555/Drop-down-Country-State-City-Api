@@ -1,6 +1,6 @@
 # Free Demo Class Plan: "Digital Marketing se Pehla Client Kaise Laayein"
 
-Status: DRAFT. **Suggestion for the owner to confirm:** a recurring free demo class once a week on a weekday (the office is open Monday–Friday, 9 AM–6 PM, so not Sunday), Suggested: every Friday, 2:00–3:00 PM, between the two class slots. The owner confirms the day and time. Offline only, at the Ladwa centre (Gali No. 1, behind Bus Stand). The demo class and counselling are free, as stated in `courses.md`.
+Status: DRAFT. **Suggestion for the owner to confirm:** a recurring free demo class once a week on a weekday (the office is open Monday–Friday, 9 AM–6 PM, so not Sunday). Suggested: every Friday, 2:00–3:00 PM, between the two class slots. The owner confirms the day and time. Offline only, at the Ladwa centre (Gali No. 1, behind Bus Stand). The demo class and counselling are free, as stated in `courses.md`.
 
 Facts used: `work/agency-profile.md`, `work/training/courses.md`. No seat limits, no deadlines and no invented offers are mentioned.
 
