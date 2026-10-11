@@ -1,6 +1,6 @@
 # Free Demo Class Plan: "Digital Marketing se Pehla Client Kaise Laayein"
 
-Status: DRAFT. **Suggestion for the owner to confirm:** a recurring free demo class every Sunday, in the 11:00 AM-1:00 PM slot (inside the institute's existing slot times; the owner may choose 4:00 PM-6:00 PM or a different day). Offline only, at the Ladwa centre (Gali No. 1, behind Bus Stand). The demo class and counselling are free, as stated in `courses.md`.
+Status: DRAFT. **Suggestion for the owner to confirm:** a recurring free demo class once a week on a weekday (the office is open Monday–Friday, 9 AM–6 PM, so not Sunday), Suggested: every Friday, 2:00–3:00 PM, between the two class slots. The owner confirms the day and time. Offline only, at the Ladwa centre (Gali No. 1, behind Bus Stand). The demo class and counselling are free, as stated in `courses.md`.
 
 Facts used: `work/agency-profile.md`, `work/training/courses.md`. No seat limits, no deadlines and no invented offers are mentioned.
 
@@ -44,7 +44,7 @@ Do not ask for Aadhaar, bank, caste or family income. Budget and decision-maker 
 Fill `[Day]` and `[Date]` with the owner-confirmed demo class date.
 
 **R0. Confirmation (immediately after registering)**
-> Namaste [Name]! Aapka Divy Digital Hub ka FREE Demo Class registration ho gaya hai. Din/Samay: [Day], [Date], [Time]. Jagah: Gali No. 1, Bus Stand ke peeche, Ladwa. Kuch laana zaroori nahi, bas apna phone ya laptop le aayein. Sawal ho to +91 97794 09669 par call karein. Message band karne ke liye STOP likhein.
+> Namaste [Name]! Aapka Divy Digital Hub ka FREE Demo Class registration ho gaya hai. Din/Samay: [Day], [Date], [Time]. Jagah: Gali No. 1, Bus Stand ke peeche, Ladwa. Kuch laana zaroori nahi, bas copy aur pen le aayein. Centre par computers hain. Sawal ho to +91 97794 09669 par call karein. Message band karne ke liye STOP likhein.
 
 **R1. One day before**
 > Namaste [Name], kal [Time] baje Divy Digital Hub, Ladwa mein FREE Demo Class hai: "Digital Marketing se Pehla Client Kaise Laayein". Hum AI tools ka live demo bhi dikhayenge. Location: Gali No. 1, Bus Stand ke peeche, Ladwa. Aane mein dikkat ho to batayein. Reply YES agar aa rahe hain.
@@ -69,7 +69,7 @@ Fill `[Day]` and `[Date]` with the owner-confirmed demo class date.
 3. Record in `work/training/students.csv`; status to `Counselled` then `Demo attended`.
 4. Within 24 hours send the personal plan (`work/training/plans/<student-id>-<name>.md`) and the fee details exactly as in `courses.md`, including 3 equal installments.
 5. Objections: fees -> installments, or the 3-month plan; "YouTube se seekh lunga" -> mentorship, live projects, feedback and real agency work; time -> choose either daily slot; distance -> be honest that classes are offline at Ladwa only.
-6. Discounts are only the two in `courses.md` (full payment upfront on DM 6 Months, and Rs 1,000 off for advance booking 7+ days before joining). Do not combine them until the owner confirms. Any other discount needs the owner's approval.
+6. Discounts are only the two in `courses.md` (full payment upfront on DM 6 Months, and Rs 1,000 off for advance booking 7+ days before joining). They can never be combined (owner confirmed). Any other discount needs the owner's approval.
 7. On enrollment: status `Enrolled`, add to the batch list, ask `account-manager` for the receipt.
 
 ## 6. Promotion (opt-in and owned channels only)
@@ -80,6 +80,6 @@ Fill `[Day]` and `[Date]` with the owner-confirmed demo class date.
 Registrations, confirmations, attendees, show-up rate, counselling done, enrolled within 7 days, source of each registration. Feed into `weekly-report-template.md`.
 
 ## 8. Needs owner decision
-- Confirm day and time (suggested: every Sunday, 11 AM).
+- Confirm day and time (suggested: every Friday, 2–3 PM, since the office is open Monday–Friday only).
 - Who takes the session, and whether a free certificate of participation is given.
 - Room capacity at the Ladwa centre, since the seat count for a free class is the owner's call; do not advertise "limited seats" unless it is real and approved.

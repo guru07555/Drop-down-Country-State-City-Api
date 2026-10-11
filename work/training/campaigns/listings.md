@@ -8,7 +8,7 @@ Facts: `work/agency-profile.md` and `work/training/courses.md` only. Fees are sh
 - Phone / WhatsApp: +91 97794 09669
 - Email: divydigitalhub@gmail.com
 - Website: https://divydigitalhub.com/
-- Hours: [owner to confirm the office days and hours]. Class slots: 11:00 AM-1:00 PM and 4:00 PM-6:00 PM.
+- Hours: Monday–Friday, 9:00 AM – 6:00 PM (office). Class slots: 11:00 AM-1:00 PM and 4:00 PM-6:00 PM.
 - Category (primary): Training institute / Computer training institute. Secondary: Marketing agency, Web designer, Educational consultant (choose the closest available).
 - Service area: Ladwa and nearby towns (Pipli, Kurukshetra, Shahabad, Babain, Radaur).
 - Photos needed (real only; designers/owner): front of the centre with signboard, classroom, trainer teaching, reception, logo, a team photo, course posters. Ask students' written consent before photographing them.
@@ -83,7 +83,7 @@ Add a line in each: "Pay in 3 equal installments." Full-payment and advance-book
 - **Short description (about 300 characters):**
 "Divy Digital Hub, Ladwa: digital marketing, website design and app development courses (3 and 6 months). Basic to advanced, AI tools, YouTube, live projects and 100% job assistance. Offline classes, 2 daily slots, join any day. Free demo class and counselling. Call +91 97794 09669."
 - **Services to list:** the seven items in section 1.2 above.
-- **Payment modes:** installments in 3 equal parts (confirm cash / UPI / card options with the owner).
+- **Payment modes:** UPI or cash; installments in 3 equal parts.
 - **Year established / hours:** [owner to fill].
 - Note: Justdial may call to sell paid promotion; the owner decides whether to buy. The free basic listing is enough.
 
@@ -104,7 +104,6 @@ Add a line in each: "Pay in 3 equal installments." Full-payment and advance-book
 - [ ] Track enquiries by listing in `weekly-report-template.md` (source: Google Business Profile / UrbanPro / Justdial / Sulekha).
 
 ## 6. Needs owner decision
-- Office hours and year of establishment.
+- Year of establishment.
 - Whether to take paid promotion on any directory.
-- Accepted payment modes.
 - Which category names each platform offers (they change).

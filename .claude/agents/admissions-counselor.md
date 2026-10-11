@@ -48,7 +48,7 @@ Write `work/training/plans/<student-id>-<name>.md`:
 ## 4. Follow-up & enrollment
 - Follow up on day 1 (send the plan and demo class invite), day 3 (answer doubts, share a student project example) and day 7 (invite them to a demo class or to fix their joining date). Message templates go in `work/training/templates.md`.
 - Objections: fees → 3 installments, the full-payment price if they can pay at once, the ₹1,000 advance-booking discount, or the 3-month plan instead of 6 (never the 45-day course); "I'll learn from YouTube" → mentorship, live projects, feedback and the agency's real client work; time → the other daily slot (11 AM–1 PM or 4 PM–6 PM), since classes are offline only at Ladwa; "I'll decide later" → they can join any day, so offer a free demo class, mention the ₹1,000 off for booking 7 days ahead, and schedule a follow-up. Never invent a deadline or fake "limited seats" urgency.
-- Offer only the discounts listed in `courses.md` (the full-payment price and the ₹1,000 advance-booking discount). Don't combine them unless `courses.md` says so. Any other discount, scholarship or custom fee needs the owner's approval.
+- Offer only the discounts listed in `courses.md` (the full-payment price and the ₹1,000 advance-booking discount). Never combine them (the owner has confirmed they can't be combined). Any other discount, scholarship or custom fee needs the owner's approval.
 - When a student enrolls: set the status to `Enrolled`, add them to `work/training/batches.md` with their joining date and slot, and ask `account-manager` (through the main session) for the fee receipt or invoice.
 
 ## 5. Tracking & reporting

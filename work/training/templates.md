@@ -177,7 +177,7 @@ Koi jaldi nahi, aapka comfort pehle. Batayein kaunsa din theek rahega?
 Agar aap ye messages nahi chahte, to "STOP" likh dein.
 - Divy Digital Hub | +91 97794 09669
 ```
-(Use the advance-booking numbers only for DM 6 Months. For others compute from the `courses.md` table or say "amount call par confirm hoga". Do not combine with the full-payment discount.)
+(Use the advance-booking numbers only for DM 6 Months. For others compute from the `courses.md` table or say "amount call par confirm hoga". The two discounts can never be combined.)
 
 ### WhatsApp (Hindi)
 ```
@@ -210,7 +210,7 @@ Namaste {Name} ji, yaad dilane ke liye: aapki FREE demo class
 Kal / Aaj: {date}, {slot}
 Jagah: Divy Digital Hub, Gali No. 1, behind Bus Stand, Ladwa (Google Maps: {link})
 
-Saath laayein: pen/notebook; laptop ho to le aayein (zaroori nahi).
+Saath laayein: copy aur pen. Laptop ki zaroorat nahi, centre par computers hain.
 Aane mein dikkat ho to is number par bata dein: +91 97794 09669
 
 Agar aap ye messages nahi chahte, to "STOP" likh dein.
@@ -247,7 +247,7 @@ Installments:
 {Discount applied: advance booking Rs 1,000 off / full payment Rs 30,000 + taxes (DM 6 Months). Only one discount.}
 Fee receipt: {sent separately}
 
-Pehle din laayein: pen/notebook, ID proof ki copy {if the owner requires it}, laptop (agar hai), paani ki bottle.
+Pehle din laayein: ek copy aur pen. Laptop ki zaroorat nahi, centre par computers hain.
 Time: slot se 10 minute pehle pahunchein.
 
 Koi sawaal ho to +91 97794 09669.
@@ -290,7 +290,7 @@ Body: same as WhatsApp; attach the receipt/invoice from `account-manager`.
 ### WhatsApp (3 days before due date)
 ```
 Namaste {Name} ji, ek chhota reminder: aapki {2nd/3rd} installment Rs {amt} (+ taxes) {due date} ko due hai.
-Aap centre par ya {payment method as told by the office} se de sakte hain.
+Aap UPI ya cash se centre par (office: 9 AM – 6 PM, Monday to Friday) de sakte hain.
 Koi dikkat ho to bejhijhak bata dein, hum madad karenge.
 Dhanyavaad! - Divy Digital Hub, +91 97794 09669
 ```

@@ -20,6 +20,10 @@ The admissions-counselor quotes only what is written here.
 ## Batches, fees & offers
 - **Rolling admission:** there are no fixed batch start dates. A student can join on **any day**, and their course duration counts from their own joining date.
 - **Daily time slots:** 11:00 AM – 1:00 PM, or 4:00 PM – 6:00 PM. The student picks the one that suits them.
+- **Office hours (enquiries, counselling, fee payment):** 9:00 AM – 6:00 PM, Monday to Friday.
+- **Computers:** the centre has computers for students, so a laptop is **not required** to join.
+- **Day 1, bring:** a copy (notebook) and a pen.
+- **Fee payment:** UPI or cash.
 - **Mode:** **offline only**, at the Ladwa centre (Gali No. 1, behind Bus Stand). No online classes. Tell students from nearby towns (Kurukshetra, Yamunanagar, Pipli, Radaur, Shahabad, etc.) about the travel up front.
 - **Installments:** every course can be paid in **3 equal installments** (taxes extra on each).
   - **6-month courses:** 1st at joining, 2nd at the start of month 2, 3rd at the start of month 4 (confirmed by the owner).
@@ -37,7 +41,7 @@ The admissions-counselor quotes only what is written here.
 - **Discounts (owner, Oct 2026)**. These replace the earlier "10–20% early-bird" wording:
   1. **Full payment upfront (no installments):** Digital Marketing 6 Months costs **₹30,000** instead of ₹35,000 (₹5,000 off), taxes extra. [Full-payment price for the other courses: owner to confirm. Until then, say "a full-payment discount is available; we'll confirm the amount on call".]
   2. **Advance seat booking:** **₹1,000 off** for a student who books their seat at least **7 days before their joining date**. With installments, split the reduced fee into 3 (e.g. DM 6 Months: ₹34,000 = ₹11,334 + ₹11,333 + ₹11,333).
-  - [Can both be combined, e.g. DM 6 Months full payment + advance booking = ₹29,000? Owner to confirm. Until then, don't combine them.]
+  - **The two discounts cannot be combined** (owner confirmed). A student gets either the full-payment price or the ₹1,000 advance-booking discount, not both.
   - Any other discount or scholarship needs the owner's approval. Never invent deadlines or "limited seats" pressure.
 - Free demo class and free counselling session.
 
@@ -84,6 +88,5 @@ Highlights: WordPress mastery · Responsive design · E-commerce sites · Client
 
 ## To fill in
 - Full-payment price for courses other than DM 6 Months: [ ]
-- Whether the full-payment and advance-booking discounts can be combined: [ ]
 - Referral offer (if any): [ ]
 - Real student success stories (name/photo only with written consent): [ ]

@@ -23,7 +23,7 @@ Simran, aapka goal job hai. 6 Months course mein month 5-6 mein internship aur 1
 | Total | Rs 35,000 + taxes |
 
 Rs 1,000 off if she books 7+ days before joining: Rs 34,000 = Rs 11,334 + Rs 11,333 + Rs 11,333 (+ taxes).
-Full payment (Rs 30,000 + taxes) is not an option as she can't pay at once. Do not combine discounts.
+Full payment (Rs 30,000 + taxes) is not an option as she can't pay at once. The two discounts can never be combined.
 
 ## Alternative, honestly: Digital Marketing 3 Months, Rs 20,000 + taxes
 | When | Amount |
@@ -36,8 +36,8 @@ What she gets: basics plus Advanced SEO and SEM, Email Marketing Automation, Goo
 What she does not get: Brand Strategy, Influencer Marketing, E-commerce Marketing, Freelancing Launchpad, Internship. For a job goal, internship experience in the 6-Month plan is valuable, but 3 Months has lower monthly payments (Rs 6,667 vs Rs 11,667 at the start). Decision is Simran's (and her family's).
 
 ## No laptop: honest plan
-- Classes are offline at Ladwa, but practical work needs a computer. We do not have in courses.md whether the centre provides systems for practice; counsellor will confirm with the owner before promising anything.
-- Simran can start with demo class and see how it works. A budget laptop will be useful by about month 2-3 for live projects (suggestion only; no financing offered).
+- No problem: the centre has computers for students, so Simran can do the full course without a laptop.
+- Later, a laptop of her own would help with home practice and freelancing, but it is not required to join (no financing offered).
 
 ## Month 1 week-by-week (2 hours/day)
 | Week | Focus |

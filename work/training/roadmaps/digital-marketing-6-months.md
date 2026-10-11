@@ -6,7 +6,7 @@ Source of topics: `work/training/courses.md` only. The month-wise order below is
 
 Included in every course: basic to advanced, AI tools (content, design, ads, productivity), YouTube channel (create, grow, use), 100% job assistance.
 
-Fees: Rs 35,000 + taxes. 3 equal installments: Rs 11,667 at joining, Rs 11,667 at start of month 2, Rs 11,666 at start of month 4 (taxes extra on each). Full payment upfront: Rs 30,000 + taxes. Rs 1,000 off for booking 7+ days before joining (not combined with full-payment discount).
+Fees: Rs 35,000 + taxes. 3 equal installments: Rs 11,667 at joining, Rs 11,667 at start of month 2, Rs 11,666 at start of month 4 (taxes extra on each). Full payment upfront: Rs 30,000 + taxes. Rs 1,000 off for booking 7+ days before joining (cannot be combined with the full-payment price).
 
 ---
 

@@ -48,7 +48,7 @@ Ask in this order. Write answers in the notes as you go.
 6. Travel to Ladwa (offline only)
    > "Hamari classes sirf Ladwa centre mein offline hoti hain, online nahi. Aap kahan se aayenge, aana-jaana roz ho payega?" (Be upfront for Kurukshetra, Yamunanagar, Pipli, Radaur, Shahabad etc.)
 7. Laptop
-   > "Aapke paas laptop hai? Practical kaam ke liye kabhi laptop chahiye hota hai." If no: note it, ask what they can arrange; do not promise anything not in `courses.md`. Say: "Is baare mein main confirm karke batati/batata hoon ki centre par kya facility hai."
+   > "Aapke paas laptop hai?" If no: "Koi baat nahi, centre par students ke liye computers hain. Laptop zaroori nahi hai." Note it in the CSV.
 8. Budget and decision maker
    > "Fees ke liye aapne kitna socha hai? Aur final decision aap lenge ya ghar mein kisi se poochna hoga?"
    - If decision maker is a parent/spouse: offer a joint call or ask them to visit the centre.
@@ -110,7 +110,7 @@ Use the installment amounts in the `courses.md` table. Full-payment price: say "
 ### Advance booking offer
 > "Agar aap joining date se kam se kam 7 din pehle seat book kar lete hain, to Rs 1,000 off milta hai."
 - DM 6 Months with installments after Rs 1,000 off: Rs 34,000 = Rs 11,334 + Rs 11,333 + Rs 11,333 (+ taxes).
-- **Do not combine** the full-payment discount and the advance-booking discount (owner has not confirmed combining). If asked: "Dono ek saath milenge ya nahi, ye main owner se confirm karke batati/batata hoon. Abhi inme se ek hi lagta hai."
+- **Never combine** the full-payment discount and the advance-booking discount (owner confirmed). If asked: "Dono mein se ek hi discount milta hai: ya to poori fees ek saath par Rs 30,000, ya 7 din pehle booking par Rs 1,000 off."
 - No other discount, scholarship or "special rate" without owner approval. No "limited seats" or fake deadline pressure.
 
 Neutral framing:

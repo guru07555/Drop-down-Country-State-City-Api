@@ -21,7 +21,7 @@ Note: Kurukshetra se Ladwa roz aana-jaana hoga. Classes sirf offline hain. Pehle
 - Total: Rs 35,000 + taxes
 - 3 installments: Rs 11,667 at joining, Rs 11,667 at start of month 2, Rs 11,666 at start of month 4
 - Full payment option: Rs 30,000 + taxes
-- Advance booking (7+ days before joining): Rs 1,000 off, i.e. Rs 34,000 = Rs 11,334 + Rs 11,333 + Rs 11,333 (+ taxes). Not combined with the full-payment discount.
+- Advance booking (7+ days before joining): Rs 1,000 off, i.e. Rs 34,000 = Rs 11,334 + Rs 11,333 + Rs 11,333 (+ taxes). Cannot be combined with the full-payment discount.
 - Rolling admission: Rahul chooses a joining date; course counts from that day.
 
 ## Week-by-week plan, month 1 (2 hours/day, 4-6 PM slot)

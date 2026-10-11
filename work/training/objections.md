@@ -5,7 +5,8 @@ Principles: listen first, agree with the worry, answer honestly, offer a next st
 Quick facts to keep handy
 - DM 6 Months: Rs 35,000 + taxes (3 installments: Rs 11,667 + Rs 11,667 + Rs 11,666 at joining / month 2 / month 4). Full payment: Rs 30,000 + taxes.
 - DM 3 Months: Rs 20,000 + taxes (Rs 6,667 + Rs 6,667 + Rs 6,666 at joining / month 2 / month 3).
-- Rs 1,000 off for booking 7+ days before joining (do not combine with full-payment discount).
+- Rs 1,000 off for booking 7+ days before joining (cannot be combined with the full-payment discount).
+- Centre has computers for students; laptop not required. Day 1: copy + pen. Fees: UPI or cash. Office: 9 AM–6 PM, Mon–Fri.
 - Offline only at Ladwa; slots 11 AM-1 PM or 4 PM-6 PM; rolling admission.
 - Free counselling and free demo class.
 
@@ -60,9 +61,9 @@ Quick facts to keep handy
 
 ### 9. "Mere paas laptop nahi hai"
 **Answer:**
-> "Theek hai, batane ke liye shukriya. Shuruaat ke dino mein hum seekhna aur practice ek saath karwate hain. Practical kaam ke liye laptop kab chahiye aur centre par kya suvidha hai, ye main confirm karke aapko saaf-saaf bataungi/bataunga. Ek sasta laptop ya purana laptop bhi kaam kar jaata hai. Aapka kya plan banta hai?"
-**Next step:** note "no laptop" in the CSV; confirm centre facility with the owner before promising anything.
-**Do not:** promise free laptop use, EMI or any facility not written in `courses.md`.
+> "Koi baat nahi! Hamare centre par students ke liye computers hain, to laptop ke bina bhi aap poora course kar sakte hain. Class mein practical computer par hi hota hai. Baad mein apna laptop le lein to ghar par practice aur freelancing mein madad milegi, par join karne ke liye zaroori nahi hai."
+**Next step:** note "no laptop, uses centre computer" in the CSV.
+**Do not:** promise EMI, a free laptop, or computer access outside class/office hours unless the owner confirms it.
 
 ### 10. "Baad mein sochunga"
 **Answer:**
@@ -100,4 +101,4 @@ Quick facts to keep handy
 ## Rules for every objection
 - Never pressure; never say "aaj hi bharo".
 - If the person says "nahi chahiye / call mat karo", thank them and set `Do not contact`.
-- If a question needs info we don't have (full-payment price of other courses, combined discounts, laptop facility), say "main confirm karke batati/batata hoon" and log it in `notes`.
+- If a question needs info we don't have (full-payment price of courses other than DM 6 Months), say "main confirm karke batati/batata hoon" and log it in `notes`.
