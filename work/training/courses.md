@@ -9,9 +9,22 @@ The admissions-counselor quotes only what is written here.
 3. **Digital Marketing, 45 Days (₹9,990)**: don't promote it. Mention it only if the student asks for it directly, or neither of the longer options is possible. Explain honestly what it does not cover (advanced SEO/SEM, live client projects, placement).
 4. App Development and Website Design: offer them only when the student's goal is coding or building apps/websites.
 
+## What every course includes (owner, Oct 2026)
+- **Basic to advanced:** every course starts from zero and goes to an advanced level.
+- **AI tools:** students learn to use AI tools for content, design, ads and productivity.
+- **YouTube:** creating, growing and using a YouTube channel.
+- **100% job assistance:** resume building, interview preparation and access to hiring partners for every eligible student. This is **assistance, not a guaranteed job**. Always say it that way.
+
+## Batches, fees & offers
+- **Batch timings:** 11:00 AM – 1:00 PM, or 4:00 PM – 6:00 PM. The student picks the one that suits them.
+- **Mode:** [offline at Ladwa / online. Owner to confirm]
+- **Installments:** available. [Number of installments and amounts: owner to confirm.] Until then, say "installment option available, we'll share the exact schedule on call".
+- **Early-bird discount:** **10–20% off** for early enrollment. The counselor may tell students that an early-bird discount of 10–20% is available. **The exact % for a student is approved by the owner.** Never promise 20% upfront. [Early-bird deadline per batch: owner to set.]
+- Free demo class and free counselling session.
+
 ## Digital Marketing
 Master the skills every business needs: drive traffic, generate leads and build brands using SEO, Ads, Social Media and Analytics.
-Highlights: Hands-on projects · Google certified prep · Live campaigns · Placement support
+Highlights: Hands-on projects · Google certified prep · Live campaigns · AI tools · YouTube channel · 100% job assistance
 
 | Plan | Fees | Includes |
 |---|---|---|
@@ -47,11 +60,11 @@ Highlights: WordPress mastery · Responsive design · E-commerce sites · Client
 - Free counselling session ("no obligations, just guidance") and a free demo class
 
 ## Numbers shown on the website
-500+ students trained · 95% placement rate · 3 expert courses · 50+ hiring partners
-⚠️ Quote these exactly as "as per our records" and never inflate them. The owner should keep records that back up the 95% placement rate, because ad platforms and consumer law may ask for proof of claims like this.
+500+ students trained · 3 expert courses · 50+ hiring partners. Quote these as "as per our records" and never inflate them.
+⚠️ The website also says "95% placement rate". **The owner has clarified that the institute offers 100% job assistance, not placement.** Don't quote the 95% placement rate anywhere. Where the website or a plan says "Placement" or "Internship + Placement", say "Job assistance" or "Internship + job assistance".
 
 ## To fill in
-- Installment options: [ ]
-- Batch timings, mode (offline at Ladwa / online), and the next start dates: [ ]
-- Approved offers (early-bird, referral, scholarship): [ ]
+- Installment schedule (number and amounts): [ ]
+- Mode (offline / online) and the next batch start dates: [ ]
+- Early-bird deadline per batch, and any referral offer: [ ]
 - Real student success stories (name/photo only with written consent): [ ]

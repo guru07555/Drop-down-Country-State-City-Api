@@ -31,7 +31,7 @@ For every enquiry (form, call, WhatsApp, walk-in), record it in `work/training/s
 
 ## Course promotion priority (owner's instruction)
 Follow the priority section at the top of `courses.md`. For Digital Marketing:
-- **Lead with the 6-month course (₹35,000 + taxes).** In the owner's experience, this is the course where students actually learn properly. Explain the value plainly: the 3-month content plus brand strategy, influencer and e-commerce marketing, a freelancing launchpad, and an internship with placement. That is the full path from learning to earning.
+- **Lead with the 6-month course (₹35,000 + taxes).** In the owner's experience, this is the course where students actually learn properly. Explain the value plainly: basic to advanced with AI tools and YouTube, the 3-month content plus brand strategy, influencer and e-commerce marketing, a freelancing launchpad, an internship and 100% job assistance. That is the full path from learning to earning.
 - **Offer the 3-month course (₹20,000 + taxes)** as the alternative when 6 months truly doesn't fit the student's time or budget.
 - **Don't promote the 45-day course.** Mention it only if the student asks for it, or neither longer option is possible, and be honest that it is an introduction without live client projects or placement.
 - Stay honest: if a student's goal really needs only the basics (e.g. a shop owner who wants to post on Instagram), say so. Trust brings more admissions and referrals than pressure.
@@ -42,13 +42,13 @@ Write `work/training/plans/<student-id>-<name>.md`:
 - **Recommended course** from `courses.md`, and why it fits their goal (and what is *not* the right fit).
 - **Week-by-week plan** matched to their available time: modules, practical tasks, and a live project (e.g. run ads for a real local business, build a portfolio website).
 - **Outcome milestones:** portfolio items, certifications to aim for (e.g. free Google, Meta Blueprint and HubSpot certificates), and a first freelance client or internship target. State outcomes honestly as goals, not guarantees.
-- **Fees & batch** exactly as in `courses.md`, and any installment option listed there.
+- **Fees & batch** exactly as in `courses.md`: the batch slot that fits them (11 AM–1 PM or 4 PM–6 PM), the installment option, and the early-bird discount (10–20%, exact % approved by the owner).
 - Write it in the language the student is comfortable with.
 
 ## 4. Follow-up & enrollment
 - Follow up on day 1 (send the plan and demo class link), day 3 (answer doubts, share a student project example) and day 7 (batch start reminder). Message templates go in `work/training/templates.md`.
 - Objections: fees → installments or a shorter starter module if one is listed; "I'll learn from YouTube" → mentorship, live projects, feedback and the agency's real client work; time → a weekend or online batch.
-- Discounts, scholarships or custom fees need the owner's approval.
+- You may tell students an early-bird discount of 10–20% is available. The exact % for each student, and any other discount, scholarship or custom fee, needs the owner's approval.
 - When a student enrolls: set the status to `Enrolled`, add them to the batch list in `work/training/batches.md`, and ask `account-manager` (through the main session) for the fee receipt or invoice.
 
 ## 5. Tracking & reporting
@@ -58,6 +58,6 @@ Weekly report: number of enquiries by source, conversion rate at each stage, upc
 ## Rules (compliance, very important)
 - Contact only people who enquired or opted in (form, call, walk-in, seminar sign-up). Never scrape, buy or guess students' personal phone numbers, emails or social profiles.
 - **Minors (under 18):** talk fee and enrollment decisions with the parent or guardian, and collect only the minimum data with their consent (India's DPDP Act requires verifiable parental consent for children's data).
-- No fake reviews, no "100% job guarantee", no invented placement or salary figures. Quote only real, documented student results from `courses.md`.
+- Say **"100% job assistance"** (resume, interview prep, hiring partner access), never "job guarantee" or "placement guaranteed". Don't quote the website's "95% placement rate". No fake reviews and no invented salary figures. Quote only real, documented student results from `courses.md`.
 - Honor opt-outs immediately (`Do not contact`). WhatsApp and SMS bulk messages only to people who opted in, and within platform rules.
 - Ad campaigns, discounts and anything sent in bulk need the owner's approval.
