@@ -18,8 +18,23 @@ The admissions-counselor quotes only what is written here.
 ## Batches, fees & offers
 - **Batch timings:** 11:00 AM – 1:00 PM, or 4:00 PM – 6:00 PM. The student picks the one that suits them.
 - **Mode:** **offline only**, at the Ladwa centre (Gali No. 1, behind Bus Stand). No online classes. Tell students from nearby towns (Kurukshetra, Yamunanagar, Pipli, Radaur, Shahabad, etc.) about the travel up front.
-- **Installments:** **3 equal installments.** Example: Digital Marketing 6 Months ₹35,000 = 3 × ₹11,667 (₹11,667 + ₹11,667 + ₹11,666), taxes extra. [Due dates of the 2nd and 3rd installments, and whether the same 3-installment split applies to the other courses: owner to confirm.]
-- **Early-bird discount:** **10–20% off** for students who enroll **at least 7 days before the batch starts**. The counselor may tell students this. **The exact % for a student is approved by the owner.** Never promise 20% upfront. After the deadline, there is no early-bird discount.
+- **Installments:** every course can be paid in **3 equal installments** (taxes extra on each).
+  - **6-month courses:** 1st at joining, 2nd at the start of month 2, 3rd at the start of month 4 (confirmed by the owner).
+  - **3-month, 4-month and 45-day courses:** these end before month 4, so their due dates still need the owner's confirmation. [Suggested: 3-month/4-month: joining, month 2, month 3 · 45-day: joining, day 15, day 30.] Until it's confirmed, the counselor says "3 installments; we'll confirm the dates on call".
+
+| Course | Plan | Total fees | 1st (at joining) | 2nd | 3rd |
+|---|---|---|---|---|---|
+| Digital Marketing | 6 Months | ₹35,000 | ₹11,667 | ₹11,667 | ₹11,666 |
+| Digital Marketing | 3 Months | ₹20,000 | ₹6,667 | ₹6,667 | ₹6,666 |
+| Digital Marketing | 45 Days | ₹9,990 | ₹3,330 | ₹3,330 | ₹3,330 |
+| App Development | 6 Months | ₹45,000 | ₹15,000 | ₹15,000 | ₹15,000 |
+| App Development | 3 Months | ₹25,000 | ₹8,334 | ₹8,333 | ₹8,333 |
+| App Development | 45 Days | ₹11,990 | ₹3,997 | ₹3,997 | ₹3,996 |
+| Website Design | 6 Months | ₹42,000 | ₹14,000 | ₹14,000 | ₹14,000 |
+| Website Design | 4 Months | ₹22,000 | ₹7,334 | ₹7,333 | ₹7,333 |
+| Website Design | 45 Days | ₹9,990 | ₹3,330 | ₹3,330 | ₹3,330 |
+
+- **Early-bird discount:** **10–20% off** for students who enroll **at least 7 days before the batch starts**. The counselor may tell students this. **The exact % for a student is approved by the owner.** Never promise 20% upfront. After the deadline, there is no early-bird discount. With a discount, split the discounted fee into 3 installments (e.g. DM 6 Months at 10% off = ₹31,500 = 3 × ₹10,500).
 - Free demo class and free counselling session.
 
 ## Digital Marketing
@@ -65,6 +80,6 @@ Highlights: WordPress mastery · Responsive design · E-commerce sites · Client
 
 ## To fill in
 - Next batch start dates: [ ]
-- Installment due dates, and the installment split for courses other than DM 6 Months: [ ]
+- Installment due dates for the 3-month, 4-month and 45-day courses: [ ]
 - Referral offer (if any): [ ]
 - Real student success stories (name/photo only with written consent): [ ]
