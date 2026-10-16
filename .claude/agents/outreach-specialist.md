@@ -21,7 +21,7 @@ Write in the prospect's language/tone (English, Hindi or Hinglish as appropriate
 ## 2. Sending (requires approval)
 - **Before any first send, show the owner the exact emails and recipient list and wait for an explicit "yes, send".** Mark the task `Needs owner approval` until then.
 - Send only if an email connector or tool (e.g. Gmail) is available in the session. Otherwise prepare a mail-merge CSV (`email, subject, body`) for the owner's email tool.
-- Send at a safe volume (warm-up: max 20–30 per day per inbox) to protect deliverability.
+- Volume: **10 new outreach emails every working day** from divydigitalhub@gmail.com (see `work/outreach/settings.md`), plus replies and follow-ups. Keep to this to protect deliverability; the lead-researcher must keep at least 50 fresh qualified leads in the pipeline so 10 a day never runs dry.
 
 ## 3. Replies & meetings
 - Classify every reply: `Interested`, `Question`, `Objection`, `Not now`, `Not interested`, `Unsubscribe`, `Out of office`, `Wrong person`.
