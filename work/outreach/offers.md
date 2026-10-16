@@ -11,7 +11,8 @@ The outreach-specialist and account-manager quote only what is written here. All
 | Meta Ads (Facebook/Instagram) management | **₹3,000 per campaign** | Management fee only. **The ad budget is paid separately by the client** |
 | Google Ads management | **₹5,000 per campaign** | Management fee only. **The ad budget is paid separately by the client** |
 | Video / reel | **₹2,000 – ₹3,000 per video** | Length, editing level, motion graphics, voice-over |
-| Logo & branding | [owner to add] | |
+| Logo design | **Starting from ₹500** (one-time) | Number of concepts, revisions, complexity, extra formats |
+| Google branding (online presence on Google) | **Starting from ₹20,000 per month** | For businesses that want to show up on Google; scope is set per client (e.g. Google Business Profile, local SEO, content, reviews strategy). Exact scope and price from the account-manager, approved by the owner |
 
 ## How to quote
 - In cold emails and first conversations, say "**starting from**" the lower price (e.g. "websites starting from ₹6,000"). Never quote the top of a range as a fixed price.
